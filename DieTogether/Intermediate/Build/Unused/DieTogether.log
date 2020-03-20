@@ -1,0 +1,17 @@
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Andreas\Documents\git\DieTogetherProto).
+  Parsing headers for DieTogetherEditor
+    Running UnrealHeaderTool "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\DieTogether.uproject" "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\DieTogetherEditor\Development\DieTogetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for DieTogetherEditor in 4,1748357 seconds
+  Building DieTogetherEditor...
+  Using Visual Studio 2019 14.25.28610 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 6 actions with 8 processes...
+    [1/6] DieTogether.init.gen.cpp
+    [2/6] Goal.gen.cpp
+    [3/6] Goal.cpp
+    [4/6] UE4Editor-DieTogether.lib
+       Bibliothek "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\UE4Editor-DieTogether.lib" und Objekt "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\UE4Editor-DieTogether.exp" werden erstellt.
+    [5/6] UE4Editor-DieTogether.dll
+       Bibliothek "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\UE4Editor-DieTogether.suppressed.lib" und Objekt "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\UE4Editor-DieTogether.suppressed.exp" werden erstellt.
+    [6/6] DieTogetherEditor.target
+  Total time in Parallel executor: 0,96 seconds
+  Total execution time: 5,55 seconds

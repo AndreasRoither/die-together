@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\Andreas\\Documents\\git\\DieTogetherProto\\DieTogether\\Source\\DieTogether\\DieTogether.Build.cs",
+		"C:\\Users\\Andreas\\Documents\\git\\DieTogetherProto\\DieTogether\\Source\\DieTogether.Target.cs",
+		"C:\\Users\\Andreas\\Documents\\git\\DieTogetherProto\\DieTogether\\Source\\DieTogetherEditor.Target.cs"
+	],
+	"EngineVersion": "4.24.3"
+}

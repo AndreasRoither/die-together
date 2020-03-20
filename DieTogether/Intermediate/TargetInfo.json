@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "DieTogether",
+			"Path": "C:\\Users\\Andreas\\Documents\\git\\DieTogetherProto\\DieTogether\\Source\\DieTogether.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "DieTogetherEditor",
+			"Path": "C:\\Users\\Andreas\\Documents\\git\\DieTogetherProto\\DieTogether\\Source\\DieTogetherEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

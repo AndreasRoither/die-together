@@ -1,0 +1,1575 @@
+﻿Log file open, 03/19/20 18:12:41
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: DieTogether
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 26 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.046127
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin ScreenshotTools
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.24-CL-11590370
+LogInit: Engine Version: 4.24.3-11590370+++UE4+Release-4.24
+LogInit: Compatible Engine Version: 4.24.0-10570792+++UE4+Release-4.24
+LogInit: Net CL: 10570792
+LogInit: OS: Windows 10 (Release 1909) (), CPU: Intel(R) Core(TM) i7-9700K CPU @ 3.60GHz, GPU: NVIDIA GeForce RTX 2070 SUPER
+LogInit: Compiled (64-bit): Feb 24 2020 15:39:18
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.24
+LogInit: Command Line:  -EpicPortal -epicusername=Roushou -epicuserid=21c3577cdbd942b48b0a7885bb493b0c -epiclocale=de
+LogInit: Base Directory: F:/Games/Epic/UE_4.24/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 25
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 37
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 36
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 2
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 36
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 8
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 9
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 8
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/Config/Windows/Engine.ini]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/Config/Windows/Engine.ini]
+[2020.03.19-17.12.41:891][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/Config/Windows/Engine.ini]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/Config/Windows/Engine.ini]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.03.19-17.12.41:891][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/Config/Windows/Engine.ini]
+[2020.03.19-17.12.41:891][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/Config/Windows/Engine.ini]
+[2020.03.19-17.12.41:899][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/Config/Windows/Scalability.ini]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/Config/Windows/Scalability.ini]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/Config/Windows/Scalability.ini]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/Config/Windows/Scalability.ini]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.19-17.12.41:899][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/Config/Windows/Scalability.ini]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/Config/Windows/Scalability.ini]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/Config/Windows/Scalability.ini]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/Config/Windows/Scalability.ini]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.03.19-17.12.41:900][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.03.19-17.12.41:900][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.19-17.12.41:900][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.03.19-17.12.41:902][  0]LogHAL: Display: Platform has ~ 16 GB [17111257088 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.03.19-17.12.41:902][  0]LogInit: Going up to parent DeviceProfile []
+[2020.03.19-17.12.41:902][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/Config/Windows/Scalability.ini]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/Config/Windows/Scalability.ini]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/Config/Windows/Scalability.ini]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/Config/Windows/Scalability.ini]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/Config/Windows/Scalability.ini]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/Config/Windows/Scalability.ini]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.03.19-17.12.41:902][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/Config/Windows/Scalability.ini]
+[2020.03.19-17.12.41:902][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.03.19-17.12.41:903][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.03.19-17.12.41:903][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/Config/Windows/Scalability.ini]
+[2020.03.19-17.12.41:903][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.03.19-17.12.41:903][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.03.19-17.12.41:903][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.03.19-17.12.41:903][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.03.19-17.12.41:903][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.03.19-17.12.41:903][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.03.19-17.12.41:903][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/Config/Windows/Engine.ini]
+[2020.03.19-17.12.41:903][  0]LogInit: Computer: DESKTOP-R126B9D
+[2020.03.19-17.12.41:903][  0]LogInit: User: Andreas
+[2020.03.19-17.12.41:903][  0]LogInit: CPU Page size=4096, Cores=8
+[2020.03.19-17.12.41:903][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.03.19-17.12.41:903][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2020.03.19-17.12.41:903][  0]LogMemory: Platform Memory Stats for Windows
+[2020.03.19-17.12.41:903][  0]LogMemory: Process Physical Memory: 104.89 MB used, 104.89 MB peak
+[2020.03.19-17.12.41:903][  0]LogMemory: Process Virtual Memory: 100.77 MB used, 100.77 MB peak
+[2020.03.19-17.12.41:903][  0]LogMemory: Physical Memory: 12079.93 MB used,  4238.64 MB free, 16318.57 MB total
+[2020.03.19-17.12.41:903][  0]LogMemory: Virtual Memory: 5141.57 MB used,  134212584.00 MB free, 134217728.00 MB total
+[2020.03.19-17.12.41:905][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.03.19-17.12.41:914][  0]LogInit: Using OS detected language (de-DE).
+[2020.03.19-17.12.41:914][  0]LogInit: Using OS detected locale (de-DE).
+[2020.03.19-17.12.41:915][  0]LogTextLocalizationManager: No specific localization for 'de-DE' exists, so the 'de' localization will be used.
+[2020.03.19-17.12.41:915][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/de/Editor.locres' could not be opened for reading!
+[2020.03.19-17.12.41:915][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/de/EditorTutorials.locres' could not be opened for reading!
+[2020.03.19-17.12.41:915][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/de/Keywords.locres' could not be opened for reading!
+[2020.03.19-17.12.41:915][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/de/Category.locres' could not be opened for reading!
+[2020.03.19-17.12.41:915][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/de/ToolTips.locres' could not be opened for reading!
+[2020.03.19-17.12.41:915][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/de/PropertyNames.locres' could not be opened for reading!
+[2020.03.19-17.12.41:915][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/de/Engine.locres' could not be opened for reading!
+[2020.03.19-17.12.41:915][  0]LogInit: Setting process to per monitor DPI aware
+[2020.03.19-17.12.41:937][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.03.19-17.12.41:937][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.03.19-17.12.42:010][  0]LogHMD: Failed to initialize OpenVR with code 101
+[2020.03.19-17.12.42:010][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2020.03.19-17.12.42:010][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2020.03.19-17.12.42:010][  0]LogD3D11RHI: D3D11 adapters:
+[2020.03.19-17.12.42:061][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 2070 SUPER' (Feature Level 11_0)
+[2020.03.19-17.12.42:061][  0]LogD3D11RHI:       8011/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2020.03.19-17.12.42:063][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.03.19-17.12.42:063][  0]LogD3D11RHI:       0/0/8159 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.03.19-17.12.42:063][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.03.19-17.12.42:069][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.03.19-17.12.42:069][  0]LogD3D11RHI:     GPU DeviceId: 0x1e84 (for the marketing name, search the web for "GPU Device Id")
+[2020.03.19-17.12.42:069][  0]LogWindows: EnumDisplayDevices:
+[2020.03.19-17.12.42:069][  0]LogWindows:    0. 'NVIDIA GeForce RTX 2070 SUPER' (P:1 D:1)
+[2020.03.19-17.12.42:069][  0]LogWindows:    1. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:1)
+[2020.03.19-17.12.42:070][  0]LogWindows:    2. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:1)
+[2020.03.19-17.12.42:070][  0]LogWindows:    3. 'NVIDIA GeForce RTX 2070 SUPER' (P:0 D:0)
+[2020.03.19-17.12.42:070][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.03.19-17.12.42:070][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 2070 SUPER
+[2020.03.19-17.12.42:070][  0]LogD3D11RHI:   Driver Version: 442.59 (internal:26.21.14.4259, unified:442.59)
+[2020.03.19-17.12.42:070][  0]LogD3D11RHI:      Driver Date: 3-4-2020
+[2020.03.19-17.12.42:070][  0]LogRHI: Texture pool is 5607 MB (70% of 8011 MB)
+[2020.03.19-17.12.42:103][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2020.03.19-17.12.42:103][  0]LogD3D11RHI: Async texture creation enabled
+[2020.03.19-17.12.42:128][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2020.03.19-17.12.42:308][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.03.19-17.12.42:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.03.19-17.12.42:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.03.19-17.12.42:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.03.19-17.12.42:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.03.19-17.12.42:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.03.19-17.12.42:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.03.19-17.12.42:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.03.19-17.12.42:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.03.19-17.12.42:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.03.19-17.12.42:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.03.19-17.12.42:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.03.19-17.12.42:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.03.19-17.12.42:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.03.19-17.12.42:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.03.19-17.12.42:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.03.19-17.12.42:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.03.19-17.12.42:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.03.19-17.12.42:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.03.19-17.12.42:340][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.03.19-17.12.42:340][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.03.19-17.12.42:344][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.03.19-17.12.42:349][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.03.19-17.12.42:353][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.03.19-17.12.42:358][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.03.19-17.12.42:362][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.03.19-17.12.42:367][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.03.19-17.12.42:383][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.03.19-17.12.42:383][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.03.19-17.12.42:392][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.03.19-17.12.42:392][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.03.19-17.12.42:396][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.03.19-17.12.42:401][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.03.19-17.12.42:405][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.03.19-17.12.42:410][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.03.19-17.12.42:410][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.03.19-17.12.42:411][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.03.19-17.12.42:421][  0]LogShaderCompilers: Guid format shader working directory is -12 characters bigger than the processId version (C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Intermediate/Shaders/WorkingDirectory/21156/).
+[2020.03.19-17.12.42:421][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Andreas/AppData/Local/Temp/UnrealShaderWorkingDir/657A63694CEC1CA47FCC7392FCB96C80/'.
+[2020.03.19-17.12.42:421][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.03.19-17.12.42:421][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.03.19-17.12.42:421][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.03.19-17.12.42:927][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.03.19-17.12.42:966][  0]LogDerivedDataCache: Loaded boot cache 0.04s 78MB C:/Users/Andreas/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.03.19-17.12.42:966][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Andreas/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.03.19-17.12.42:966][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.03.19-17.12.42:966][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.03.19-17.12.42:966][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.19-17.12.42:966][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.03.19-17.12.42:973][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.03.19-17.12.42:974][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.03.19-17.12.42:974][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.03.19-17.12.42:974][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Andreas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.03.19-17.12.42:974][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.03.19-17.12.42:974][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.03.19-17.12.42:992][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.03.19-17.12.42:994][  0]LogSlate: Using FreeType 2.10.0
+[2020.03.19-17.12.42:994][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.03.19-17.12.43:026][  0]LogAssetRegistry: FAssetRegistry took 0.0018 seconds to start up
+[2020.03.19-17.12.43:226][  0]LogInit: Selected Device Profile: [Windows]
+[2020.03.19-17.12.43:332][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.03.19-17.12.43:332][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.03.19-17.12.43:332][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.03.19-17.12.43:332][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.03.19-17.12.43:332][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.03.19-17.12.43:346][  0]LogNetVersion: DieTogether 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 2432162669)
+[2020.03.19-17.12.44:012][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.029572 seconds
+[2020.03.19-17.12.44:018][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.03.19-17.12.44:018][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.03.19-17.12.44:018][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.03.19-17.12.44:275][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.03.19-17.12.44:277][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.03.19-17.12.44:378][  0]SourceControl: Source control is disabled
+[2020.03.19-17.12.44:378][  0]SourceControl: Source control is disabled
+[2020.03.19-17.12.44:379][  0]SourceControl: Source control is disabled
+[2020.03.19-17.12.44:380][  0]SourceControl: Source control is disabled
+[2020.03.19-17.12.44:380][  0]SourceControl: Source control is disabled
+[2020.03.19-17.12.44:427][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.03.19-17.12.44:433][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.03.19-17.12.44:433][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.03.19-17.12.44:489][  0]LogOcInput: OculusInput pre-init called
+[2020.03.19-17.12.44:493][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.03.19-17.12.44:493][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.03.19-17.12.44:538][  0]LogEngine: Initializing Engine...
+[2020.03.19-17.12.44:539][  0]LogHMD: Failed to initialize OpenVR with code 101
+[2020.03.19-17.12.44:540][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2020.03.19-17.12.44:774][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.03.19-17.12.44:778][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.03.19-17.12.44:790][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.19-17.12.44:790][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.19-17.12.44:790][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.19-17.12.44:790][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.19-17.12.44:790][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.19-17.12.44:790][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.19-17.12.44:790][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.19-17.12.44:790][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.19-17.12.44:790][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.19-17.12.44:790][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.19-17.12.44:815][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.19-17.12.44:815][  0]LogAudioMixer: Display: Name: Headphones (Arctis 7 Game)
+[2020.03.19-17.12.44:815][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.03.19-17.12.44:815][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.19-17.12.44:815][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.19-17.12.44:815][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.19-17.12.44:815][  0]LogAudioMixer: Display: Channel Order:
+[2020.03.19-17.12.44:815][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.19-17.12.44:815][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.03.19-17.12.44:844][  0]LogAudioMixer: Display: Using Audio Device Headphones (Arctis 7 Game)
+[2020.03.19-17.12.44:848][  0]LogInit: FAudioDevice initialized.
+[2020.03.19-17.12.44:848][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.03.19-17.12.44:910][  0]LogDerivedDataCache: Saved boot cache 0.06s 78MB C:/Users/Andreas/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.03.19-17.12.44:913][  0]LogInit: Texture streaming: Enabled
+[2020.03.19-17.12.44:942][  0]LogInit: Transaction tracking system initialized
+[2020.03.19-17.12.44:947][  0]BlueprintLog: New page: Editor Load
+[2020.03.19-17.12.44:962][  0]LocalizationService: Localization service is disabled
+[2020.03.19-17.12.45:128][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Content/' took 0.00s
+[2020.03.19-17.12.45:128][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.03.19-17.12.45:128][  0]LogCook: Display: Mobile HDR setting 1
+[2020.03.19-17.12.45:536][  0]SourceControl: Source control is disabled
+[2020.03.19-17.12.45:537][  0]Cmd: MAP LOAD FILE="C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.03.19-17.12.45:537][  0]LightingResults: New page: Lighting Build
+[2020.03.19-17.12.45:537][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.03.19-17.12.45:537][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.19-17.12.45:537][  0]MapCheck: New page: Map Check
+[2020.03.19-17.12.45:537][  0]LightingResults: New page: Lighting Build
+[2020.03.19-17.12.45:561][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.19ms
+[2020.03.19-17.12.45:594][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2020.03.19-17.12.45:595][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.03.19-17.12.45:618][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.15ms
+[2020.03.19-17.12.45:620][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.03.19-17.12.45:620][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,115ms to complete.
+[2020.03.19-17.12.45:620][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.083
+[2020.03.19-17.12.45:719][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.12.45:723][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.12.45:728][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.12.45:732][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.12.45:734][  0]LogCollectionManager: Loaded 0 collections in 0.000462 seconds
+[2020.03.19-17.12.45:742][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/Collections/' took 0.00s
+[2020.03.19-17.12.45:742][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Content/Developers/Andreas/Collections/' took 0.00s
+[2020.03.19-17.12.45:742][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Content/Collections/' took 0.00s
+[2020.03.19-17.12.45:742][  0]LogContentBrowser: Native class hierarchy populated in 0.0059 seconds. Added 3018 classes and 720 folders.
+[2020.03.19-17.12.45:744][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.03.19-17.12.45:765][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.03.19-17.12.45:770][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 3 folders.
+[2020.03.19-17.12.45:822][  0]LogSlate: Took 0.000104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.03.19-17.12.45:823][  0]LogSlate: Took 0.000091 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.03.19-17.12.45:826][  0]LogSlate: Took 0.000069 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.03.19-17.12.45:877][  0]LogRenderer: Reallocating scene render targets to support 1248x632 Format 10 NumSamples 1 (Frame:1).
+[2020.03.19-17.12.45:887][  0]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.19-17.12.45:898][  0]LogSlate: Took 0.000082 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.03.19-17.12.45:933][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.03.19-17.12.45:933][  0]LogLoad: (Engine Initialization) Total time: 4.56 seconds
+[2020.03.19-17.12.45:933][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.03.19-17.12.45:965][  0]LogAssetRegistry: Asset discovery search completed in 2.9397 seconds
+[2020.03.19-17.12.45:967][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
+[2020.03.19-17.12.45:968][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.03.19-17.12.52:630][ 20]Candidate modules for hot reload:
+[2020.03.19-17.12.52:630][ 20]  DieTogether
+[2020.03.19-17.12.52:630][ 20]Launching UnrealBuildTool... [F:/Games/Epic/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DieTogether,5209 Win64 Development -TargetType=Editor -Project="C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/DieTogether.uproject" "C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/DieTogether.uproject"  -IgnoreJunk]
+[2020.03.19-17.12.52:633][ 20]Warning: Starting HotReload took  0.0s.
+[2020.03.19-17.12.58:810][748]CompilerResultsLog: New page: Compilation - 19.03.2020, 19:12:58
+[2020.03.19-17.12.58:810][748]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Andreas\Documents\git\DieTogetherProto).
+[2020.03.19-17.12.58:810][748]CompilerResultsLog: Parsing headers for DieTogetherEditor
+[2020.03.19-17.12.58:810][748]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\DieTogether.uproject" "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\DieTogetherEditor\Development\DieTogetherEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2020.03.19-17.12.58:810][748]CompilerResultsLog: Reflection code generated for DieTogetherEditor in 4,3896642 seconds
+[2020.03.19-17.12.58:810][748]CompilerResultsLog: Building DieTogetherEditor...
+[2020.03.19-17.12.58:810][748]CompilerResultsLog: Using Visual Studio 2019 14.25.28610 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.03.19-17.12.58:810][748]CompilerResultsLog: Building 6 actions with 8 processes...
+[2020.03.19-17.12.58:810][748]CompilerResultsLog:   [1/6] DieTogether.init.gen.cpp
+[2020.03.19-17.12.58:810][748]CompilerResultsLog:   [2/6] Goal.cpp
+[2020.03.19-17.12.58:810][748]CompilerResultsLog:   [3/6] Goal.gen.cpp
+[2020.03.19-17.12.58:810][748]CompilerResultsLog:   [4/6] UE4Editor-DieTogether-5209.lib
+[2020.03.19-17.12.58:810][748]CompilerResultsLog:      Bibliothek "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\UE4Editor-DieTogether-5209.lib" und Objekt "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\UE4Editor-DieTogether-5209.exp" werden erstellt.
+[2020.03.19-17.12.58:810][748]CompilerResultsLog:   [5/6] UE4Editor-DieTogether-5209.dll
+[2020.03.19-17.12.58:810][748]CompilerResultsLog:      Bibliothek "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\UE4Editor-DieTogether-5209.suppressed.lib" und Objekt "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\UE4Editor-DieTogether-5209.suppressed.exp" werden erstellt.
+[2020.03.19-17.12.58:810][748]CompilerResultsLog:   [6/6] DieTogetherEditor.target
+[2020.03.19-17.12.58:810][748]CompilerResultsLog: Total time in Parallel executor: 1,09 seconds
+[2020.03.19-17.12.58:810][748]CompilerResultsLog: Total execution time: 6,12 seconds
+[2020.03.19-17.12.58:810][748]LogMainFrame: MainFrame: Module compiling took 6.183 seconds
+[2020.03.19-17.12.58:831][748]LogUObjectHash: Compacting FUObjectHashTables data took   0.49ms
+[2020.03.19-17.12.58:835][748]LogClass: Could not find existing class Goal in package /Script/DieTogether for HotReload, assuming new class
+[2020.03.19-17.12.58:835][748]LogClass: Function OnOverlapBegin is new.
+[2020.03.19-17.12.58:839][748]LogHotReload: Re-instancing Goal after hot-reload.
+[2020.03.19-17.12.58:904][748]LogContentBrowser: Native class hierarchy updated for 'DieTogether' in 0.0003 seconds. Added 3 classes and 3 folders.
+[2020.03.19-17.12.58:907][748]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2020.03.19-17.12.58:951][748]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2020.03.19-17.12.58:960][748]LogContentBrowser: Native class hierarchy populated in 0.0060 seconds. Added 3020 classes and 723 folders.
+[2020.03.19-17.12.58:961][748]Display: HotReload took  6.3s.
+[2020.03.19-17.13.16:093][ 78]Candidate modules for hot reload:
+[2020.03.19-17.13.16:093][ 78]  DieTogether
+[2020.03.19-17.13.16:093][ 78]Launching UnrealBuildTool... [F:/Games/Epic/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DieTogether,5136 Win64 Development -TargetType=Editor -Project="C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/DieTogether.uproject" "C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/DieTogether.uproject"  -IgnoreJunk]
+[2020.03.19-17.13.16:097][ 78]Warning: Starting HotReload took  0.0s.
+[2020.03.19-17.13.19:437][218]CompilerResultsLog: New page: Compilation - 19.03.2020, 19:13:19
+[2020.03.19-17.13.19:437][218]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Andreas\Documents\git\DieTogetherProto).
+[2020.03.19-17.13.19:437][218]CompilerResultsLog: Building DieTogetherEditor...
+[2020.03.19-17.13.19:437][218]CompilerResultsLog: Using Visual Studio 2019 14.25.28610 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.03.19-17.13.19:437][218]CompilerResultsLog: Building 4 actions with 8 processes...
+[2020.03.19-17.13.19:437][218]CompilerResultsLog:   [1/4] Goal.cpp
+[2020.03.19-17.13.19:437][218]CompilerResultsLog:   [2/4] UE4Editor-DieTogether-5136.lib
+[2020.03.19-17.13.19:437][218]CompilerResultsLog:      Bibliothek "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\UE4Editor-DieTogether-5136.lib" und Objekt "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\UE4Editor-DieTogether-5136.exp" werden erstellt.
+[2020.03.19-17.13.19:437][218]CompilerResultsLog:   [3/4] UE4Editor-DieTogether-5136.dll
+[2020.03.19-17.13.19:437][218]CompilerResultsLog:      Bibliothek "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\UE4Editor-DieTogether-5136.suppressed.lib" und Objekt "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\UE4Editor-DieTogether-5136.suppressed.exp" werden erstellt.
+[2020.03.19-17.13.19:437][218]CompilerResultsLog:   [4/4] DieTogetherEditor.target
+[2020.03.19-17.13.19:437][218]CompilerResultsLog: Total time in Parallel executor: 0,93 seconds
+[2020.03.19-17.13.19:437][218]CompilerResultsLog: Total execution time: 2,97 seconds
+[2020.03.19-17.13.19:437][218]LogMainFrame: MainFrame: Module compiling took 3.347 seconds
+[2020.03.19-17.13.19:458][218]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2020.03.19-17.13.19:468][218]LogHotReload: Re-instancing Goal after hot-reload.
+[2020.03.19-17.13.19:531][218]LogContentBrowser: Native class hierarchy updated for 'DieTogether' in 0.0003 seconds. Added 3 classes and 3 folders.
+[2020.03.19-17.13.19:533][218]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.03.19-17.13.19:574][218]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2020.03.19-17.13.19:583][218]LogContentBrowser: Native class hierarchy populated in 0.0058 seconds. Added 3020 classes and 723 folders.
+[2020.03.19-17.13.19:583][218]Display: HotReload took  3.5s.
+[2020.03.19-17.13.25:468][235]LogEditor: Attempting to add actor of class 'Goal' to level at -600.00,-300.00,640.00
+[2020.03.19-17.13.26:027][299]LogEditor: Attempting to add actor of class 'Goal' to level at -450.00,-300.00,990.00
+[2020.03.19-17.13.29:048][658]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.19-17.13.29:056][658]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.13.29:057][658]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.19-17.13.29:058][658]PIE: New page: PIE session: 2DSideScrollerExampleMap (19.03.2020, 19:13:29)
+[2020.03.19-17.13.29:059][658]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.03.19-17.13.29:060][658]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2020.03.19-17.13.29:061][658]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.03.19-17.13.29:065][658]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003456s)
+[2020.03.19-17.13.29:066][658]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2020.03.19-17.13.29:066][658]LogPlayLevel: PIE: World Init took: (0.001313s)
+[2020.03.19-17.13.29:066][658]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.005170s)
+[2020.03.19-17.13.29:089][658]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
+[2020.03.19-17.13.29:090][658]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.19-17.13.29:090][658]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.19-17.13.29:090][658]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.19-17.13.29:090][658]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.19-17.13.29:090][658]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.19-17.13.29:090][658]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.19-17.13.29:090][658]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.19-17.13.29:090][658]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.19-17.13.29:091][658]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.19-17.13.29:091][658]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.19-17.13.29:112][658]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.19-17.13.29:112][658]LogAudioMixer: Display: Name: Headphones (Arctis 7 Game)
+[2020.03.19-17.13.29:112][658]LogAudioMixer: Display: Is Default: Yes
+[2020.03.19-17.13.29:112][658]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.19-17.13.29:112][658]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.19-17.13.29:112][658]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.19-17.13.29:112][658]LogAudioMixer: Display: Channel Order:
+[2020.03.19-17.13.29:112][658]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.19-17.13.29:112][658]LogAudioMixer: Display: 1: FrontRight
+[2020.03.19-17.13.29:138][658]LogAudioMixer: Display: Using Audio Device Headphones (Arctis 7 Game)
+[2020.03.19-17.13.29:139][658]LogInit: FAudioDevice initialized.
+[2020.03.19-17.13.29:149][658]LogLoad: Game class is 'DieTogetherGameMode'
+[2020.03.19-17.13.29:157][658]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2020.03.19-18.13.29
+[2020.03.19-17.13.29:158][658]LogWorld: Bringing up level for play took: 0.002493
+[2020.03.19-17.13.29:159][658]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2020.03.19-17.13.29:179][658]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2020.03.19-17.13.29:182][658]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0,07
+[2020.03.19-17.13.29:182][658]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.13.52:427][313]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.13.52:427][313]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.13.52:429][313]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.13.52:430][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.13.52:430][313]LogWorld: BeginTearingDown for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.03.19-17.13.52:430][313]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.13.52:430][313]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.19-17.13.52:431][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.19-17.13.52:435][313]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.19-17.13.52:436][313]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.13.52:438][313]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.19-17.13.52:460][313]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.13.52:464][313]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.13.52:466][313]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2020.03.19-17.13.52:534][320]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2020.03.19-17.14.21:467][  7]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/2DSideScrollerCPP/Blueprints/BP_2DSideScrollerCharacter.BP_2DSideScrollerCharacter
+[2020.03.19-17.14.21:628][  7]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 121 classes and 0 folders.
+[2020.03.19-17.14.27:952][663]LogSlate: Window 'BP_2DSideScrollerCharacter' being destroyed
+[2020.03.19-17.14.27:957][663]LogSlate: Window 'BP_2DSideScrollerCharacter' being destroyed
+[2020.03.19-17.14.27:962][663]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2020.03.19-17.14.27:962][663]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.19-17.17.13:817][527]Candidate modules for hot reload:
+[2020.03.19-17.17.13:817][527]  DieTogether
+[2020.03.19-17.17.13:817][527]Launching UnrealBuildTool... [F:/Games/Epic/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DieTogether,6221 Win64 Development -TargetType=Editor -Project="C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/DieTogether.uproject" "C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/DieTogether.uproject"  -IgnoreJunk]
+[2020.03.19-17.17.13:821][527]Warning: Starting HotReload took  0.0s.
+[2020.03.19-17.17.17:013][882]CompilerResultsLog: New page: Compilation - 19.03.2020, 19:17:17
+[2020.03.19-17.17.17:013][882]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Andreas\Documents\git\DieTogetherProto).
+[2020.03.19-17.17.17:013][882]CompilerResultsLog: Building DieTogetherEditor...
+[2020.03.19-17.17.17:013][882]CompilerResultsLog: Using Visual Studio 2019 14.25.28610 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.03.19-17.17.17:013][882]CompilerResultsLog: Building 4 actions with 8 processes...
+[2020.03.19-17.17.17:013][882]CompilerResultsLog:   [1/4] Goal.cpp
+[2020.03.19-17.17.17:013][882]CompilerResultsLog:   [2/4] UE4Editor-DieTogether-6221.lib
+[2020.03.19-17.17.17:013][882]CompilerResultsLog:      Bibliothek "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\UE4Editor-DieTogether-6221.lib" und Objekt "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\UE4Editor-DieTogether-6221.exp" werden erstellt.
+[2020.03.19-17.17.17:013][882]CompilerResultsLog:   [3/4] UE4Editor-DieTogether-6221.dll
+[2020.03.19-17.17.17:013][882]CompilerResultsLog:      Bibliothek "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\UE4Editor-DieTogether-6221.suppressed.lib" und Objekt "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\UE4Editor-DieTogether-6221.suppressed.exp" werden erstellt.
+[2020.03.19-17.17.17:013][882]CompilerResultsLog:   [4/4] DieTogetherEditor.target
+[2020.03.19-17.17.17:013][882]CompilerResultsLog: Total time in Parallel executor: 1,33 seconds
+[2020.03.19-17.17.17:013][882]CompilerResultsLog: Total execution time: 3,13 seconds
+[2020.03.19-17.17.17:013][882]LogMainFrame: MainFrame: Module compiling took 3.199 seconds
+[2020.03.19-17.17.17:045][882]LogUObjectHash: Compacting FUObjectHashTables data took   2.38ms
+[2020.03.19-17.17.17:058][882]LogTemp: Warning: Test
+[2020.03.19-17.17.17:059][882]LogHotReload: Re-instancing Goal after hot-reload.
+[2020.03.19-17.17.17:059][882]LogTemp: Warning: Test
+[2020.03.19-17.17.17:178][882]LogContentBrowser: Native class hierarchy updated for 'DieTogether' in 0.0003 seconds. Added 3 classes and 3 folders.
+[2020.03.19-17.17.17:181][882]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.03.19-17.17.17:244][882]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.03.19-17.17.17:256][882]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 3020 classes and 723 folders.
+[2020.03.19-17.17.17:256][882]Display: HotReload took  3.4s.
+[2020.03.19-17.17.22:657][499]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.19-17.17.22:664][499]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.17.22:664][499]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.19-17.17.22:664][499]PIE: New page: PIE session: 2DSideScrollerExampleMap (19.03.2020, 19:17:22)
+[2020.03.19-17.17.22:665][499]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.03.19-17.17.22:667][499]LogTemp: Warning: Test
+[2020.03.19-17.17.22:669][499]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004723s)
+[2020.03.19-17.17.22:670][499]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2020.03.19-17.17.22:670][499]LogPlayLevel: PIE: World Init took: (0.000926s)
+[2020.03.19-17.17.22:670][499]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.005751s)
+[2020.03.19-17.17.22:730][499]LogUObjectHash: Compacting FUObjectHashTables data took   2.87ms
+[2020.03.19-17.17.22:732][499]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.19-17.17.22:732][499]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.19-17.17.22:732][499]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.19-17.17.22:732][499]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.19-17.17.22:732][499]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.19-17.17.22:732][499]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.19-17.17.22:732][499]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.19-17.17.22:732][499]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.19-17.17.22:732][499]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.19-17.17.22:732][499]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.19-17.17.22:755][499]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.19-17.17.22:755][499]LogAudioMixer: Display: Name: Headphones (Arctis 7 Game)
+[2020.03.19-17.17.22:755][499]LogAudioMixer: Display: Is Default: Yes
+[2020.03.19-17.17.22:755][499]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.19-17.17.22:755][499]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.19-17.17.22:755][499]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.19-17.17.22:755][499]LogAudioMixer: Display: Channel Order:
+[2020.03.19-17.17.22:755][499]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.19-17.17.22:755][499]LogAudioMixer: Display: 1: FrontRight
+[2020.03.19-17.17.22:781][499]LogAudioMixer: Display: Using Audio Device Headphones (Arctis 7 Game)
+[2020.03.19-17.17.22:782][499]LogInit: FAudioDevice initialized.
+[2020.03.19-17.17.22:789][499]LogLoad: Game class is 'DieTogetherGameMode'
+[2020.03.19-17.17.22:790][499]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2020.03.19-18.17.22
+[2020.03.19-17.17.22:790][499]LogWorld: Bringing up level for play took: 0.000659
+[2020.03.19-17.17.22:791][499]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2020.03.19-17.17.22:792][499]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0,459
+[2020.03.19-17.17.22:792][499]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.17.26:853][986]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.17.26:853][986]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.17.26:853][986]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.17.26:854][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.17.26:854][986]LogWorld: BeginTearingDown for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.03.19-17.17.26:854][986]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.17.26:854][986]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.19-17.17.26:854][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.19-17.17.26:863][986]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.19-17.17.26:863][986]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.17.26:867][986]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.19-17.17.26:888][986]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.17.26:892][986]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.17.26:914][986]LogUObjectHash: Compacting FUObjectHashTables data took   2.32ms
+[2020.03.19-17.17.26:958][990]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2020.03.19-17.17.43:296][919]LogCollisionAnalyzer: Opening CollisionAnalyzer...
+[2020.03.19-17.17.46:462][245]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.19-17.17.46:467][245]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.17.46:467][245]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.19-17.17.46:467][245]PIE: New page: PIE session: 2DSideScrollerExampleMap (19.03.2020, 19:17:46)
+[2020.03.19-17.17.46:468][245]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.03.19-17.17.46:468][245]LogTemp: Warning: Test
+[2020.03.19-17.17.46:470][245]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002410s)
+[2020.03.19-17.17.46:471][245]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2020.03.19-17.17.46:472][245]LogPlayLevel: PIE: World Init took: (0.002469s)
+[2020.03.19-17.17.46:473][245]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.004993s)
+[2020.03.19-17.17.46:496][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2020.03.19-17.17.46:498][245]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.19-17.17.46:498][245]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.19-17.17.46:498][245]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.19-17.17.46:498][245]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.19-17.17.46:498][245]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.19-17.17.46:498][245]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.19-17.17.46:498][245]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.19-17.17.46:498][245]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.19-17.17.46:498][245]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.19-17.17.46:498][245]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.19-17.17.46:520][245]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.19-17.17.46:520][245]LogAudioMixer: Display: Name: Headphones (Arctis 7 Game)
+[2020.03.19-17.17.46:520][245]LogAudioMixer: Display: Is Default: Yes
+[2020.03.19-17.17.46:520][245]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.19-17.17.46:520][245]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.19-17.17.46:520][245]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.19-17.17.46:520][245]LogAudioMixer: Display: Channel Order:
+[2020.03.19-17.17.46:520][245]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.19-17.17.46:520][245]LogAudioMixer: Display: 1: FrontRight
+[2020.03.19-17.17.46:546][245]LogAudioMixer: Display: Using Audio Device Headphones (Arctis 7 Game)
+[2020.03.19-17.17.46:547][245]LogInit: FAudioDevice initialized.
+[2020.03.19-17.17.46:555][245]LogLoad: Game class is 'DieTogetherGameMode'
+[2020.03.19-17.17.46:556][245]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2020.03.19-18.17.46
+[2020.03.19-17.17.46:556][245]LogWorld: Bringing up level for play took: 0.000619
+[2020.03.19-17.17.46:556][245]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2020.03.19-17.17.46:557][245]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0,694
+[2020.03.19-17.17.46:557][245]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.17.52:368][942]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.17.52:368][942]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.17.52:368][942]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.17.52:368][942]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.17.52:368][942]LogWorld: BeginTearingDown for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.03.19-17.17.52:369][942]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.17.52:369][942]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.19-17.17.52:369][942]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.19-17.17.52:379][942]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.19-17.17.52:379][942]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.17.52:382][942]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.19-17.17.52:406][942]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.17.52:409][942]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.17.52:411][942]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2020.03.19-17.17.52:472][949]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2020.03.19-17.17.56:289][367]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.19-17.17.56:294][367]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.17.56:294][367]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.19-17.17.56:294][367]PIE: New page: PIE session: 2DSideScrollerExampleMap (19.03.2020, 19:17:56)
+[2020.03.19-17.17.56:295][367]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.03.19-17.17.56:295][367]LogTemp: Warning: Test
+[2020.03.19-17.17.56:297][367]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001992s)
+[2020.03.19-17.17.56:297][367]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2020.03.19-17.17.56:297][367]LogPlayLevel: PIE: World Init took: (0.000626s)
+[2020.03.19-17.17.56:297][367]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.002697s)
+[2020.03.19-17.17.56:322][367]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2020.03.19-17.17.56:322][367]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.19-17.17.56:322][367]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.19-17.17.56:322][367]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.19-17.17.56:322][367]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.19-17.17.56:322][367]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.19-17.17.56:322][367]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.19-17.17.56:322][367]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.19-17.17.56:322][367]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.19-17.17.56:323][367]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.19-17.17.56:323][367]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.19-17.17.56:344][367]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.19-17.17.56:344][367]LogAudioMixer: Display: Name: Headphones (Arctis 7 Game)
+[2020.03.19-17.17.56:344][367]LogAudioMixer: Display: Is Default: Yes
+[2020.03.19-17.17.56:344][367]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.19-17.17.56:344][367]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.19-17.17.56:344][367]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.19-17.17.56:344][367]LogAudioMixer: Display: Channel Order:
+[2020.03.19-17.17.56:344][367]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.19-17.17.56:344][367]LogAudioMixer: Display: 1: FrontRight
+[2020.03.19-17.17.56:370][367]LogAudioMixer: Display: Using Audio Device Headphones (Arctis 7 Game)
+[2020.03.19-17.17.56:371][367]LogInit: FAudioDevice initialized.
+[2020.03.19-17.17.56:380][367]LogLoad: Game class is 'DieTogetherGameMode'
+[2020.03.19-17.17.56:382][367]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2020.03.19-18.17.56
+[2020.03.19-17.17.56:382][367]LogWorld: Bringing up level for play took: 0.000624
+[2020.03.19-17.17.56:382][367]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2020.03.19-17.17.56:385][367]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0,866
+[2020.03.19-17.17.56:385][367]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.18.00:111][813]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.18.00:111][813]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.18.00:111][813]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.18.00:111][813]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.18.00:111][813]LogWorld: BeginTearingDown for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.03.19-17.18.00:111][813]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.18.00:111][813]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.19-17.18.00:111][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.19-17.18.00:116][813]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.19-17.18.00:117][813]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.18.00:119][813]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.19-17.18.00:142][813]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.18.00:145][813]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.18.00:147][813]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2020.03.19-17.18.00:211][819]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2020.03.19-17.18.25:146][804]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.19-17.18.25:151][804]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.18.25:151][804]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.19-17.18.25:151][804]PIE: New page: PIE session: 2DSideScrollerExampleMap (19.03.2020, 19:18:25)
+[2020.03.19-17.18.25:151][804]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.03.19-17.18.25:151][804]LogTemp: Warning: Test
+[2020.03.19-17.18.25:153][804]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002080s)
+[2020.03.19-17.18.25:154][804]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2020.03.19-17.18.25:154][804]LogPlayLevel: PIE: World Init took: (0.000685s)
+[2020.03.19-17.18.25:154][804]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.002856s)
+[2020.03.19-17.18.25:179][804]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2020.03.19-17.18.25:181][804]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.19-17.18.25:181][804]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.19-17.18.25:181][804]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.19-17.18.25:181][804]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.19-17.18.25:181][804]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.19-17.18.25:181][804]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.19-17.18.25:181][804]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.19-17.18.25:181][804]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.19-17.18.25:182][804]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.19-17.18.25:182][804]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.19-17.18.25:204][804]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.19-17.18.25:204][804]LogAudioMixer: Display: Name: Headphones (Arctis 7 Game)
+[2020.03.19-17.18.25:204][804]LogAudioMixer: Display: Is Default: Yes
+[2020.03.19-17.18.25:204][804]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.19-17.18.25:204][804]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.19-17.18.25:204][804]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.19-17.18.25:204][804]LogAudioMixer: Display: Channel Order:
+[2020.03.19-17.18.25:204][804]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.19-17.18.25:204][804]LogAudioMixer: Display: 1: FrontRight
+[2020.03.19-17.18.25:230][804]LogAudioMixer: Display: Using Audio Device Headphones (Arctis 7 Game)
+[2020.03.19-17.18.25:231][804]LogInit: FAudioDevice initialized.
+[2020.03.19-17.18.25:240][804]LogLoad: Game class is 'DieTogetherGameMode'
+[2020.03.19-17.18.25:241][804]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2020.03.19-18.18.25
+[2020.03.19-17.18.25:241][804]LogWorld: Bringing up level for play took: 0.000610
+[2020.03.19-17.18.25:241][804]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2020.03.19-17.18.25:242][804]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0,009
+[2020.03.19-17.18.25:243][804]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.18.32:752][704]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.18.32:752][704]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.18.32:752][704]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.18.32:752][704]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.18.32:752][704]LogWorld: BeginTearingDown for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.03.19-17.18.32:752][704]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.18.32:752][704]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.19-17.18.32:752][704]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.19-17.18.32:762][704]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.19-17.18.32:762][704]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.18.32:765][704]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.19-17.18.32:787][704]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.18.32:790][704]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.18.32:792][704]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2020.03.19-17.18.32:854][711]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2020.03.19-17.18.39:190][468]LogSlate: Window 'Collision Analyzer' being destroyed
+[2020.03.19-17.18.39:195][468]LogSlate: Window 'Collision Analyzer' being destroyed
+[2020.03.19-17.19.10:178][135]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.03.19-17.19.10:305][135]LogSavePackage: Moving 'C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/2DSideScrollerExampleMapB5FF9B85449727F5CA5F049C37A490C9.tmp' to 'C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap'
+[2020.03.19-17.19.10:318][135]LogSavePackage: Moving 'C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/2DSideScrollerExampleMap_BuiltDaD3F57C0E4FE7A56A7E2A35BC99FD24C5.tmp' to 'C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset'
+[2020.03.19-17.19.10:334][135]AssetCheck: New page: Asset Save: multiple assets
+[2020.03.19-17.19.10:334][135]LogContentValidation: Display: Validating World /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap
+[2020.03.19-17.19.10:334][135]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.2DSideScrollerExampleMap_BuiltData
+[2020.03.19-17.19.12:147][348]Candidate modules for hot reload:
+[2020.03.19-17.19.12:147][348]  DieTogether
+[2020.03.19-17.19.12:147][348]Launching UnrealBuildTool... [F:/Games/Epic/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DieTogether,1369 Win64 Development -TargetType=Editor -Project="C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/DieTogether.uproject" "C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/DieTogether.uproject"  -IgnoreJunk]
+[2020.03.19-17.19.12:151][348]Warning: Starting HotReload took  0.0s.
+[2020.03.19-17.19.15:209][682]CompilerResultsLog: New page: Compilation - 19.03.2020, 19:19:15
+[2020.03.19-17.19.15:209][682]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Andreas\Documents\git\DieTogetherProto).
+[2020.03.19-17.19.15:209][682]CompilerResultsLog: Building DieTogetherEditor...
+[2020.03.19-17.19.15:209][682]CompilerResultsLog: Using Visual Studio 2019 14.25.28610 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.03.19-17.19.15:209][682]CompilerResultsLog: Building 3 actions with 8 processes...
+[2020.03.19-17.19.15:209][682]CompilerResultsLog:   [1/3] UE4Editor-DieTogether-1369.lib
+[2020.03.19-17.19.15:209][682]CompilerResultsLog:      Bibliothek "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\UE4Editor-DieTogether-1369.lib" und Objekt "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\UE4Editor-DieTogether-1369.exp" werden erstellt.
+[2020.03.19-17.19.15:209][682]CompilerResultsLog:   [2/3] UE4Editor-DieTogether-1369.dll
+[2020.03.19-17.19.15:209][682]CompilerResultsLog:      Bibliothek "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\UE4Editor-DieTogether-1369.suppressed.lib" und Objekt "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\UE4Editor-DieTogether-1369.suppressed.exp" werden erstellt.
+[2020.03.19-17.19.15:209][682]CompilerResultsLog:   [3/3] DieTogetherEditor.target
+[2020.03.19-17.19.15:209][682]CompilerResultsLog: Total time in Parallel executor: 0,65 seconds
+[2020.03.19-17.19.15:209][682]CompilerResultsLog: Total execution time: 2,99 seconds
+[2020.03.19-17.19.15:209][682]LogMainFrame: MainFrame: Module compiling took 3.065 seconds
+[2020.03.19-17.19.15:232][682]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2020.03.19-17.19.15:243][682]LogTemp: Warning: Test
+[2020.03.19-17.19.15:243][682]LogContentBrowser: Native class hierarchy updated for 'DieTogether' in 0.0003 seconds. Added 3 classes and 3 folders.
+[2020.03.19-17.19.15:246][682]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.03.19-17.19.15:304][682]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2020.03.19-17.19.15:315][682]LogContentBrowser: Native class hierarchy populated in 0.0061 seconds. Added 3020 classes and 723 folders.
+[2020.03.19-17.19.15:315][682]Display: HotReload took  3.2s.
+[2020.03.19-17.19.40:691][419]LogSlate: Took 0.000842 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2020.03.19-17.19.46:373][ 93]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.19-17.19.46:380][ 93]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.19.46:380][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.19-17.19.46:380][ 93]PIE: New page: PIE session: 2DSideScrollerExampleMap (19.03.2020, 19:19:46)
+[2020.03.19-17.19.46:380][ 93]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.03.19-17.19.46:381][ 93]LogTemp: Warning: Test
+[2020.03.19-17.19.46:382][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002071s)
+[2020.03.19-17.19.46:383][ 93]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2020.03.19-17.19.46:383][ 93]LogPlayLevel: PIE: World Init took: (0.000722s)
+[2020.03.19-17.19.46:383][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.002875s)
+[2020.03.19-17.19.46:436][ 93]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2020.03.19-17.19.46:437][ 93]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.19-17.19.46:437][ 93]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.19-17.19.46:437][ 93]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.19-17.19.46:437][ 93]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.19-17.19.46:437][ 93]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.19-17.19.46:437][ 93]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.19-17.19.46:437][ 93]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.19-17.19.46:437][ 93]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.19-17.19.46:437][ 93]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.19-17.19.46:437][ 93]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.19-17.19.46:458][ 93]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.19-17.19.46:458][ 93]LogAudioMixer: Display: Name: Headphones (Arctis 7 Game)
+[2020.03.19-17.19.46:458][ 93]LogAudioMixer: Display: Is Default: Yes
+[2020.03.19-17.19.46:458][ 93]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.19-17.19.46:458][ 93]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.19-17.19.46:458][ 93]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.19-17.19.46:459][ 93]LogAudioMixer: Display: Channel Order:
+[2020.03.19-17.19.46:459][ 93]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.19-17.19.46:459][ 93]LogAudioMixer: Display: 1: FrontRight
+[2020.03.19-17.19.46:484][ 93]LogAudioMixer: Display: Using Audio Device Headphones (Arctis 7 Game)
+[2020.03.19-17.19.46:485][ 93]LogInit: FAudioDevice initialized.
+[2020.03.19-17.19.46:493][ 93]LogLoad: Game class is 'DieTogetherGameMode'
+[2020.03.19-17.19.46:494][ 93]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2020.03.19-18.19.46
+[2020.03.19-17.19.46:494][ 93]LogWorld: Bringing up level for play took: 0.000666
+[2020.03.19-17.19.46:494][ 93]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.03.19-17.19.46:496][ 93]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0,755
+[2020.03.19-17.19.46:496][ 93]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.19.49:568][461]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.19.49:568][461]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.19.49:568][461]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.19.49:568][461]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.19.49:568][461]LogWorld: BeginTearingDown for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.03.19-17.19.49:568][461]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.19.49:568][461]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.19-17.19.49:568][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.19-17.19.49:576][461]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.19-17.19.49:576][461]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.19.49:580][461]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.19-17.19.49:604][461]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.19.49:607][461]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.19.49:621][461]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2020.03.19-17.19.49:675][467]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.03.19-17.19.55:358][147]Cmd: clear
+[2020.03.19-17.20.09:686][863]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.19-17.20.09:691][863]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.20.09:693][863]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.19-17.20.09:693][863]PIE: New page: PIE session: 2DSideScrollerExampleMap (19.03.2020, 19:20:09)
+[2020.03.19-17.20.09:693][863]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.03.19-17.20.09:694][863]LogTemp: Warning: Test
+[2020.03.19-17.20.09:696][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002528s)
+[2020.03.19-17.20.09:697][863]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2020.03.19-17.20.09:697][863]LogPlayLevel: PIE: World Init took: (0.000810s)
+[2020.03.19-17.20.09:697][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003455s)
+[2020.03.19-17.20.09:722][863]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2020.03.19-17.20.09:724][863]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.19-17.20.09:724][863]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.19-17.20.09:724][863]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.19-17.20.09:724][863]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.19-17.20.09:724][863]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.19-17.20.09:724][863]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.19-17.20.09:724][863]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.19-17.20.09:724][863]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.19-17.20.09:724][863]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.19-17.20.09:724][863]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.19-17.20.09:746][863]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.19-17.20.09:746][863]LogAudioMixer: Display: Name: Headphones (Arctis 7 Game)
+[2020.03.19-17.20.09:746][863]LogAudioMixer: Display: Is Default: Yes
+[2020.03.19-17.20.09:746][863]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.19-17.20.09:746][863]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.19-17.20.09:746][863]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.19-17.20.09:746][863]LogAudioMixer: Display: Channel Order:
+[2020.03.19-17.20.09:746][863]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.19-17.20.09:746][863]LogAudioMixer: Display: 1: FrontRight
+[2020.03.19-17.20.09:771][863]LogAudioMixer: Display: Using Audio Device Headphones (Arctis 7 Game)
+[2020.03.19-17.20.09:772][863]LogInit: FAudioDevice initialized.
+[2020.03.19-17.20.09:778][863]LogLoad: Game class is 'DieTogetherGameMode'
+[2020.03.19-17.20.09:778][863]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2020.03.19-18.20.09
+[2020.03.19-17.20.09:779][863]LogWorld: Bringing up level for play took: 0.000646
+[2020.03.19-17.20.09:779][863]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2020.03.19-17.20.09:780][863]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0,528
+[2020.03.19-17.20.09:780][863]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.20.12:065][136]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.20.12:065][136]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.20.12:065][136]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.20.12:065][136]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.20.12:065][136]LogWorld: BeginTearingDown for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.03.19-17.20.12:065][136]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.20.12:065][136]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.19-17.20.12:065][136]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.19-17.20.12:069][136]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.19-17.20.12:069][136]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.20.12:072][136]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.19-17.20.12:095][136]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.20.12:098][136]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.20.12:100][136]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2020.03.19-17.20.12:168][143]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2020.03.19-17.20.15:835][583]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.19-17.20.15:841][583]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.20.15:841][583]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.19-17.20.15:841][583]PIE: New page: PIE session: 2DSideScrollerExampleMap (19.03.2020, 19:20:15)
+[2020.03.19-17.20.15:841][583]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.03.19-17.20.15:842][583]LogTemp: Warning: Test
+[2020.03.19-17.20.15:843][583]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001996s)
+[2020.03.19-17.20.15:844][583]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2020.03.19-17.20.15:844][583]LogPlayLevel: PIE: World Init took: (0.000645s)
+[2020.03.19-17.20.15:844][583]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.002723s)
+[2020.03.19-17.20.15:868][583]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2020.03.19-17.20.15:868][583]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.19-17.20.15:868][583]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.19-17.20.15:868][583]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.19-17.20.15:868][583]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.19-17.20.15:868][583]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.19-17.20.15:868][583]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.19-17.20.15:869][583]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.19-17.20.15:869][583]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.19-17.20.15:869][583]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.19-17.20.15:869][583]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.19-17.20.15:890][583]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.19-17.20.15:890][583]LogAudioMixer: Display: Name: Headphones (Arctis 7 Game)
+[2020.03.19-17.20.15:891][583]LogAudioMixer: Display: Is Default: Yes
+[2020.03.19-17.20.15:891][583]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.19-17.20.15:891][583]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.19-17.20.15:891][583]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.19-17.20.15:891][583]LogAudioMixer: Display: Channel Order:
+[2020.03.19-17.20.15:891][583]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.19-17.20.15:891][583]LogAudioMixer: Display: 1: FrontRight
+[2020.03.19-17.20.15:916][583]LogAudioMixer: Display: Using Audio Device Headphones (Arctis 7 Game)
+[2020.03.19-17.20.15:917][583]LogInit: FAudioDevice initialized.
+[2020.03.19-17.20.15:924][583]LogLoad: Game class is 'DieTogetherGameMode'
+[2020.03.19-17.20.15:925][583]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2020.03.19-18.20.15
+[2020.03.19-17.20.15:925][583]LogWorld: Bringing up level for play took: 0.000633
+[2020.03.19-17.20.15:925][583]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2020.03.19-17.20.15:926][583]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0,675
+[2020.03.19-17.20.15:926][583]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.20.42:884][697]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.20.42:884][697]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.20.42:884][697]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.20.42:884][697]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.20.42:884][697]LogWorld: BeginTearingDown for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.03.19-17.20.42:884][697]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.20.42:884][697]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.19-17.20.42:884][697]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.19-17.20.42:890][697]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.19-17.20.42:890][697]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.20.42:893][697]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.19-17.20.42:915][697]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.20.42:919][697]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.20.42:921][697]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2020.03.19-17.20.42:993][705]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2020.03.19-17.20.45:992][ 64]LogEditorViewport: Clicking on Actor (LMB): Goal (Goal1)
+[2020.03.19-17.20.58:515][513]LogSlate: Took 0.000100 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.03.19-17.21.05:785][350]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2020.03.19-17.21.05:905][350]LogSavePackage: Moving 'C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/2DSideScrollerExampleMap14696148436DD1ACA5BAB29E17C879A4.tmp' to 'C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap'
+[2020.03.19-17.21.05:917][350]LogSavePackage: Moving 'C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/2DSideScrollerExampleMap_BuiltDa345C16584D64027E52DC95AE241AF8D7.tmp' to 'C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset'
+[2020.03.19-17.21.05:931][350]AssetCheck: New page: Asset Save: multiple assets
+[2020.03.19-17.21.05:931][350]LogContentValidation: Display: Validating World /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap
+[2020.03.19-17.21.05:931][350]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.2DSideScrollerExampleMap_BuiltData
+[2020.03.19-17.21.06:892][463]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.19-17.21.06:898][463]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.21.06:898][463]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.19-17.21.06:898][463]PIE: New page: PIE session: 2DSideScrollerExampleMap (19.03.2020, 19:21:06)
+[2020.03.19-17.21.06:898][463]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.03.19-17.21.06:899][463]LogTemp: Warning: Test
+[2020.03.19-17.21.06:900][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001998s)
+[2020.03.19-17.21.06:901][463]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2020.03.19-17.21.06:901][463]LogPlayLevel: PIE: World Init took: (0.000619s)
+[2020.03.19-17.21.06:901][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.002698s)
+[2020.03.19-17.21.06:926][463]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2020.03.19-17.21.06:926][463]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.19-17.21.06:926][463]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.19-17.21.06:926][463]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.19-17.21.06:926][463]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.19-17.21.06:926][463]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.19-17.21.06:926][463]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.19-17.21.06:926][463]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.19-17.21.06:926][463]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.19-17.21.06:927][463]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.19-17.21.06:927][463]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.19-17.21.06:948][463]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.19-17.21.06:948][463]LogAudioMixer: Display: Name: Headphones (Arctis 7 Game)
+[2020.03.19-17.21.06:948][463]LogAudioMixer: Display: Is Default: Yes
+[2020.03.19-17.21.06:948][463]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.19-17.21.06:948][463]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.19-17.21.06:948][463]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.19-17.21.06:948][463]LogAudioMixer: Display: Channel Order:
+[2020.03.19-17.21.06:948][463]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.19-17.21.06:948][463]LogAudioMixer: Display: 1: FrontRight
+[2020.03.19-17.21.06:974][463]LogAudioMixer: Display: Using Audio Device Headphones (Arctis 7 Game)
+[2020.03.19-17.21.06:975][463]LogInit: FAudioDevice initialized.
+[2020.03.19-17.21.06:981][463]LogLoad: Game class is 'DieTogetherGameMode'
+[2020.03.19-17.21.06:983][463]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2020.03.19-18.21.06
+[2020.03.19-17.21.06:983][463]LogWorld: Bringing up level for play took: 0.000650
+[2020.03.19-17.21.06:983][463]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2020.03.19-17.21.06:984][463]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0,267
+[2020.03.19-17.21.06:984][463]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.21.14:821][402]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.21.14:821][402]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.21.14:821][402]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.21.14:821][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.21.14:821][402]LogWorld: BeginTearingDown for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.03.19-17.21.14:821][402]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.21.14:821][402]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.19-17.21.14:821][402]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.19-17.21.14:829][402]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.19-17.21.14:829][402]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.21.14:833][402]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.19-17.21.14:854][402]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.21.14:858][402]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.21.14:860][402]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2020.03.19-17.21.14:923][409]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2020.03.19-17.23.21:498][924]Candidate modules for hot reload:
+[2020.03.19-17.23.21:498][924]  DieTogether
+[2020.03.19-17.23.21:498][924]Launching UnrealBuildTool... [F:/Games/Epic/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DieTogether,2159 Win64 Development -TargetType=Editor -Project="C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/DieTogether.uproject" "C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/DieTogether.uproject"  -IgnoreJunk]
+[2020.03.19-17.23.21:501][924]Warning: Starting HotReload took  0.0s.
+[2020.03.19-17.23.24:682][272]CompilerResultsLog: New page: Compilation - 19.03.2020, 19:23:24
+[2020.03.19-17.23.24:682][272]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Andreas\Documents\git\DieTogetherProto).
+[2020.03.19-17.23.24:682][272]CompilerResultsLog: Building DieTogetherEditor...
+[2020.03.19-17.23.24:682][272]CompilerResultsLog: Using Visual Studio 2019 14.25.28610 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.03.19-17.23.24:682][272]CompilerResultsLog: Building 4 actions with 8 processes...
+[2020.03.19-17.23.24:682][272]CompilerResultsLog:   [1/4] Goal.cpp
+[2020.03.19-17.23.24:682][272]CompilerResultsLog:   [2/4] UE4Editor-DieTogether-2159.lib
+[2020.03.19-17.23.24:682][272]CompilerResultsLog:      Bibliothek "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\UE4Editor-DieTogether-2159.lib" und Objekt "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\UE4Editor-DieTogether-2159.exp" werden erstellt.
+[2020.03.19-17.23.24:682][272]CompilerResultsLog:   [3/4] UE4Editor-DieTogether-2159.dll
+[2020.03.19-17.23.24:682][272]CompilerResultsLog:      Bibliothek "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\UE4Editor-DieTogether-2159.suppressed.lib" und Objekt "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\UE4Editor-DieTogether-2159.suppressed.exp" werden erstellt.
+[2020.03.19-17.23.24:682][272]CompilerResultsLog:   [4/4] DieTogetherEditor.target
+[2020.03.19-17.23.24:682][272]CompilerResultsLog: Total time in Parallel executor: 0,95 seconds
+[2020.03.19-17.23.24:682][272]CompilerResultsLog: Total execution time: 3,12 seconds
+[2020.03.19-17.23.24:682][272]LogMainFrame: MainFrame: Module compiling took 3.187 seconds
+[2020.03.19-17.23.24:705][272]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2020.03.19-17.23.24:717][272]LogTemp: Warning: Test
+[2020.03.19-17.23.24:718][272]LogContentBrowser: Native class hierarchy updated for 'DieTogether' in 0.0003 seconds. Added 3 classes and 3 folders.
+[2020.03.19-17.23.24:721][272]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.03.19-17.23.24:781][272]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2020.03.19-17.23.24:792][272]LogContentBrowser: Native class hierarchy populated in 0.0063 seconds. Added 3020 classes and 723 folders.
+[2020.03.19-17.23.24:792][272]Display: HotReload took  3.3s.
+[2020.03.19-17.23.26:200][415]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.19-17.23.26:206][415]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.23.26:207][415]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.19-17.23.26:207][415]PIE: New page: PIE session: 2DSideScrollerExampleMap (19.03.2020, 19:23:26)
+[2020.03.19-17.23.26:207][415]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.03.19-17.23.26:207][415]LogTemp: Warning: Test
+[2020.03.19-17.23.26:209][415]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002083s)
+[2020.03.19-17.23.26:210][415]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2020.03.19-17.23.26:210][415]LogPlayLevel: PIE: World Init took: (0.000690s)
+[2020.03.19-17.23.26:210][415]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.002860s)
+[2020.03.19-17.23.26:260][415]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2020.03.19-17.23.26:261][415]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.19-17.23.26:261][415]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.19-17.23.26:261][415]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.19-17.23.26:261][415]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.19-17.23.26:261][415]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.19-17.23.26:261][415]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.19-17.23.26:261][415]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.19-17.23.26:261][415]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.19-17.23.26:261][415]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.19-17.23.26:261][415]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.19-17.23.26:284][415]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.19-17.23.26:284][415]LogAudioMixer: Display: Name: Headphones (Arctis 7 Game)
+[2020.03.19-17.23.26:284][415]LogAudioMixer: Display: Is Default: Yes
+[2020.03.19-17.23.26:284][415]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.19-17.23.26:284][415]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.19-17.23.26:284][415]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.19-17.23.26:284][415]LogAudioMixer: Display: Channel Order:
+[2020.03.19-17.23.26:284][415]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.19-17.23.26:284][415]LogAudioMixer: Display: 1: FrontRight
+[2020.03.19-17.23.26:310][415]LogAudioMixer: Display: Using Audio Device Headphones (Arctis 7 Game)
+[2020.03.19-17.23.26:312][415]LogInit: FAudioDevice initialized.
+[2020.03.19-17.23.26:316][415]LogLoad: Game class is 'DieTogetherGameMode'
+[2020.03.19-17.23.26:317][415]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2020.03.19-18.23.26
+[2020.03.19-17.23.26:317][415]LogWorld: Bringing up level for play took: 0.000680
+[2020.03.19-17.23.26:317][415]LogOnline: OSS: Creating online subsystem instance for: :Context_13
+[2020.03.19-17.23.26:319][415]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap 1,068
+[2020.03.19-17.23.26:319][415]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.23.47:467][940]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.23.47:467][940]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.23.47:467][940]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.23.47:467][940]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.23.47:467][940]LogWorld: BeginTearingDown for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.03.19-17.23.47:467][940]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.23.47:467][940]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.19-17.23.47:467][940]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.19-17.23.47:476][940]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.19-17.23.47:476][940]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.23.47:480][940]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.19-17.23.47:506][940]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.23.47:510][940]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.23.47:522][940]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2020.03.19-17.23.47:572][945]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2020.03.19-17.24.54:208][860]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2020.03.19-17.24.54:326][860]LogSavePackage: Moving 'C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/2DSideScrollerExampleMap46C76B154E7DE138D1AEBA990380D399.tmp' to 'C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap'
+[2020.03.19-17.24.54:339][860]LogSavePackage: Moving 'C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/2DSideScrollerExampleMap_BuiltDaB9F2606A471681A0EF77C9881510501D.tmp' to 'C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset'
+[2020.03.19-17.24.54:354][860]AssetCheck: New page: Asset Save: multiple assets
+[2020.03.19-17.24.54:354][860]LogContentValidation: Display: Validating World /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap
+[2020.03.19-17.24.54:354][860]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.2DSideScrollerExampleMap_BuiltData
+[2020.03.19-17.24.55:767][ 26]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.19-17.24.55:772][ 26]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.24.55:772][ 26]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.19-17.24.55:772][ 26]PIE: New page: PIE session: 2DSideScrollerExampleMap (19.03.2020, 19:24:55)
+[2020.03.19-17.24.55:772][ 26]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.03.19-17.24.55:772][ 26]LogTemp: Warning: Test
+[2020.03.19-17.24.55:774][ 26]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002209s)
+[2020.03.19-17.24.55:775][ 26]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2020.03.19-17.24.55:775][ 26]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2020.03.19-17.24.55:775][ 26]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003032s)
+[2020.03.19-17.24.55:800][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2020.03.19-17.24.55:800][ 26]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.19-17.24.55:800][ 26]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.19-17.24.55:800][ 26]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.19-17.24.55:801][ 26]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.19-17.24.55:801][ 26]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.19-17.24.55:801][ 26]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.19-17.24.55:801][ 26]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.19-17.24.55:801][ 26]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.19-17.24.55:801][ 26]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.19-17.24.55:801][ 26]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.19-17.24.55:822][ 26]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.19-17.24.55:822][ 26]LogAudioMixer: Display: Name: Headphones (Arctis 7 Game)
+[2020.03.19-17.24.55:822][ 26]LogAudioMixer: Display: Is Default: Yes
+[2020.03.19-17.24.55:822][ 26]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.19-17.24.55:822][ 26]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.19-17.24.55:822][ 26]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.19-17.24.55:822][ 26]LogAudioMixer: Display: Channel Order:
+[2020.03.19-17.24.55:822][ 26]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.19-17.24.55:822][ 26]LogAudioMixer: Display: 1: FrontRight
+[2020.03.19-17.24.55:848][ 26]LogAudioMixer: Display: Using Audio Device Headphones (Arctis 7 Game)
+[2020.03.19-17.24.55:849][ 26]LogInit: FAudioDevice initialized.
+[2020.03.19-17.24.55:855][ 26]LogLoad: Game class is 'DieTogetherGameMode'
+[2020.03.19-17.24.55:857][ 26]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2020.03.19-18.24.55
+[2020.03.19-17.24.55:857][ 26]LogWorld: Bringing up level for play took: 0.000672
+[2020.03.19-17.24.55:857][ 26]LogOnline: OSS: Creating online subsystem instance for: :Context_14
+[2020.03.19-17.24.55:858][ 26]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0,607
+[2020.03.19-17.24.55:858][ 26]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.24.58:073][288]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.24.58:073][288]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.24.58:073][288]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.24.58:073][288]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.24.58:073][288]LogWorld: BeginTearingDown for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.03.19-17.24.58:073][288]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.24.58:073][288]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.19-17.24.58:073][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.19-17.24.58:081][288]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.19-17.24.58:081][288]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.24.58:084][288]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.19-17.24.58:106][288]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.24.58:109][288]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.24.58:112][288]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.03.19-17.24.58:176][295]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2020.03.19-17.25.06:901][311]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.03.19-17.25.07:017][311]LogSavePackage: Moving 'C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/2DSideScrollerExampleMap80EC70A9458856EBDD905283D228F258.tmp' to 'C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap'
+[2020.03.19-17.25.07:029][311]LogSavePackage: Moving 'C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/2DSideScrollerExampleMap_BuiltDa484CE0E245DB9CDA8D954C89AB773994.tmp' to 'C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset'
+[2020.03.19-17.25.07:043][311]AssetCheck: New page: Asset Save: multiple assets
+[2020.03.19-17.25.07:043][311]LogContentValidation: Display: Validating World /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap
+[2020.03.19-17.25.07:043][311]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.2DSideScrollerExampleMap_BuiltData
+[2020.03.19-17.25.11:602][851]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.19-17.25.11:607][851]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.25.11:607][851]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.19-17.25.11:607][851]PIE: New page: PIE session: 2DSideScrollerExampleMap (19.03.2020, 19:25:11)
+[2020.03.19-17.25.11:607][851]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.03.19-17.25.11:607][851]LogTemp: Warning: Test
+[2020.03.19-17.25.11:610][851]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002085s)
+[2020.03.19-17.25.11:610][851]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2020.03.19-17.25.11:610][851]LogPlayLevel: PIE: World Init took: (0.000647s)
+[2020.03.19-17.25.11:610][851]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.002816s)
+[2020.03.19-17.25.11:634][851]LogUObjectHash: Compacting FUObjectHashTables data took   1.86ms
+[2020.03.19-17.25.11:636][851]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.19-17.25.11:636][851]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.19-17.25.11:636][851]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.19-17.25.11:636][851]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.19-17.25.11:636][851]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.19-17.25.11:636][851]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.19-17.25.11:636][851]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.19-17.25.11:636][851]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.19-17.25.11:636][851]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.19-17.25.11:636][851]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.19-17.25.11:657][851]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.19-17.25.11:657][851]LogAudioMixer: Display: Name: Headphones (Arctis 7 Game)
+[2020.03.19-17.25.11:657][851]LogAudioMixer: Display: Is Default: Yes
+[2020.03.19-17.25.11:657][851]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.19-17.25.11:657][851]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.19-17.25.11:657][851]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.19-17.25.11:657][851]LogAudioMixer: Display: Channel Order:
+[2020.03.19-17.25.11:657][851]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.19-17.25.11:657][851]LogAudioMixer: Display: 1: FrontRight
+[2020.03.19-17.25.11:683][851]LogAudioMixer: Display: Using Audio Device Headphones (Arctis 7 Game)
+[2020.03.19-17.25.11:684][851]LogInit: FAudioDevice initialized.
+[2020.03.19-17.25.11:692][851]LogLoad: Game class is 'DieTogetherGameMode'
+[2020.03.19-17.25.11:693][851]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2020.03.19-18.25.11
+[2020.03.19-17.25.11:693][851]LogWorld: Bringing up level for play took: 0.000603
+[2020.03.19-17.25.11:693][851]LogOnline: OSS: Creating online subsystem instance for: :Context_15
+[2020.03.19-17.25.11:694][851]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0,443
+[2020.03.19-17.25.11:694][851]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.25.13:752][ 96]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.25.13:752][ 96]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.25.13:752][ 96]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.25.13:752][ 96]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.25.13:752][ 96]LogWorld: BeginTearingDown for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.03.19-17.25.13:752][ 96]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.25.13:752][ 96]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.19-17.25.13:752][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.19-17.25.13:760][ 96]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.19-17.25.13:760][ 96]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.25.13:763][ 96]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.19-17.25.13:785][ 96]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.25.13:789][ 96]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.25.13:792][ 96]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2020.03.19-17.25.13:853][103]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2020.03.19-17.25.33:720][440]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2020.03.19-17.25.33:836][440]LogSavePackage: Moving 'C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/2DSideScrollerExampleMapA5A26FF24FE4498EC68E52B51DEF459A.tmp' to 'C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap'
+[2020.03.19-17.25.33:848][440]LogSavePackage: Moving 'C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Saved/2DSideScrollerExampleMap_BuiltDaD77D8ED642CB0A6F557D068025A4C776.tmp' to 'C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset'
+[2020.03.19-17.25.33:862][440]AssetCheck: New page: Asset Save: multiple assets
+[2020.03.19-17.25.33:862][440]LogContentValidation: Display: Validating World /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap
+[2020.03.19-17.25.33:862][440]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.2DSideScrollerExampleMap_BuiltData
+[2020.03.19-17.25.35:808][670]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.19-17.25.35:813][670]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.25.35:814][670]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.19-17.25.35:814][670]PIE: New page: PIE session: 2DSideScrollerExampleMap (19.03.2020, 19:25:35)
+[2020.03.19-17.25.35:814][670]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.03.19-17.25.35:814][670]LogTemp: Warning: Test
+[2020.03.19-17.25.35:816][670]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002035s)
+[2020.03.19-17.25.35:816][670]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2020.03.19-17.25.35:817][670]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2020.03.19-17.25.35:817][670]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.002795s)
+[2020.03.19-17.25.35:841][670]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2020.03.19-17.25.35:842][670]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.19-17.25.35:842][670]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.19-17.25.35:842][670]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.19-17.25.35:842][670]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.19-17.25.35:842][670]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.19-17.25.35:842][670]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.19-17.25.35:842][670]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.19-17.25.35:842][670]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.19-17.25.35:842][670]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.19-17.25.35:842][670]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.19-17.25.35:864][670]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.19-17.25.35:864][670]LogAudioMixer: Display: Name: Headphones (Arctis 7 Game)
+[2020.03.19-17.25.35:864][670]LogAudioMixer: Display: Is Default: Yes
+[2020.03.19-17.25.35:864][670]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.19-17.25.35:864][670]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.19-17.25.35:864][670]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.19-17.25.35:864][670]LogAudioMixer: Display: Channel Order:
+[2020.03.19-17.25.35:864][670]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.19-17.25.35:864][670]LogAudioMixer: Display: 1: FrontRight
+[2020.03.19-17.25.35:889][670]LogAudioMixer: Display: Using Audio Device Headphones (Arctis 7 Game)
+[2020.03.19-17.25.35:890][670]LogInit: FAudioDevice initialized.
+[2020.03.19-17.25.35:897][670]LogLoad: Game class is 'DieTogetherGameMode'
+[2020.03.19-17.25.35:898][670]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2020.03.19-18.25.35
+[2020.03.19-17.25.35:898][670]LogWorld: Bringing up level for play took: 0.000763
+[2020.03.19-17.25.35:898][670]LogOnline: OSS: Creating online subsystem instance for: :Context_16
+[2020.03.19-17.25.35:900][670]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0,648
+[2020.03.19-17.25.35:900][670]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.25.40:626][232]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.25.40:626][232]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.25.40:626][232]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.25.40:626][232]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.25.40:626][232]LogWorld: BeginTearingDown for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.03.19-17.25.40:626][232]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.25.40:626][232]LogWorld: UWorld::CleanupWorld for 2DSideScrollerExampleMap, bSessionEnded=true, bCleanupResources=true
+[2020.03.19-17.25.40:626][232]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.19-17.25.40:630][232]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.03.19-17.25.40:630][232]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.25.40:634][232]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.03.19-17.25.40:657][232]LogAudioMixer: Display: No commands were queued while flushing the source manager.
+[2020.03.19-17.25.40:660][232]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.03.19-17.25.40:662][232]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2020.03.19-17.25.40:733][240]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2020.03.19-17.30.07:249][391]Candidate modules for hot reload:
+[2020.03.19-17.30.07:249][391]  DieTogether
+[2020.03.19-17.30.07:249][391]Launching UnrealBuildTool... [F:/Games/Epic/UE_4.24/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=DieTogether,8039 Win64 Development -TargetType=Editor -Project="C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/DieTogether.uproject" "C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/DieTogether.uproject"  -IgnoreJunk]
+[2020.03.19-17.30.07:252][391]Warning: Starting HotReload took  0.0s.
+[2020.03.19-17.30.10:398][469]CompilerResultsLog: New page: Compilation - 19.03.2020, 19:30:10
+[2020.03.19-17.30.10:398][469]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Andreas\Documents\git\DieTogetherProto).
+[2020.03.19-17.30.10:398][469]CompilerResultsLog: Building DieTogetherEditor...
+[2020.03.19-17.30.10:398][469]CompilerResultsLog: Using Visual Studio 2019 14.25.28610 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2020.03.19-17.30.10:398][469]CompilerResultsLog: Building 4 actions with 8 processes...
+[2020.03.19-17.30.10:398][469]CompilerResultsLog:   [1/4] Goal.cpp
+[2020.03.19-17.30.10:398][469]CompilerResultsLog:   [2/4] UE4Editor-DieTogether-8039.lib
+[2020.03.19-17.30.10:398][469]CompilerResultsLog:      Bibliothek "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\UE4Editor-DieTogether-8039.lib" und Objekt "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\UE4Editor-DieTogether-8039.exp" werden erstellt.
+[2020.03.19-17.30.10:398][469]CompilerResultsLog:   [3/4] UE4Editor-DieTogether-8039.dll
+[2020.03.19-17.30.10:399][469]CompilerResultsLog:      Bibliothek "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\UE4Editor-DieTogether-8039.suppressed.lib" und Objekt "C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\UE4Editor-DieTogether-8039.suppressed.exp" werden erstellt.
+[2020.03.19-17.30.10:399][469]CompilerResultsLog:   [4/4] DieTogetherEditor.target
+[2020.03.19-17.30.10:399][469]CompilerResultsLog: Total time in Parallel executor: 0,87 seconds
+[2020.03.19-17.30.10:399][469]CompilerResultsLog: Total execution time: 3,03 seconds
+[2020.03.19-17.30.10:399][469]LogMainFrame: MainFrame: Module compiling took 3.151 seconds
+[2020.03.19-17.30.10:422][469]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2020.03.19-17.30.10:433][469]LogTemp: Warning: Test
+[2020.03.19-17.30.10:434][469]LogHotReload: Re-instancing Goal after hot-reload.
+[2020.03.19-17.30.10:434][469]LogTemp: Warning: Test
+[2020.03.19-17.30.10:545][469]LogContentBrowser: Native class hierarchy updated for 'DieTogether' in 0.0003 seconds. Added 3 classes and 3 folders.
+[2020.03.19-17.30.10:548][469]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2020.03.19-17.30.10:608][469]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2020.03.19-17.30.10:620][469]LogContentBrowser: Native class hierarchy populated in 0.0064 seconds. Added 3020 classes and 723 folders.
+[2020.03.19-17.30.10:620][469]Display: HotReload took  3.4s.
+[2020.03.19-17.30.14:743][481]LogTemp: Repeating last play command: Selected Viewport
+[2020.03.19-17.30.14:750][481]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2020.03.19-17.30.14:751][481]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.03.19-17.30.14:751][481]PIE: New page: PIE session: 2DSideScrollerExampleMap (19.03.2020, 19:30:14)
+[2020.03.19-17.30.14:751][481]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2020.03.19-17.30.14:751][481]LogTemp: Warning: Test
+[2020.03.19-17.30.14:753][481]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002120s)
+[2020.03.19-17.30.14:754][481]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2020.03.19-17.30.14:754][481]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2020.03.19-17.30.14:754][481]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.002951s)
+[2020.03.19-17.30.14:806][481]LogUObjectHash: Compacting FUObjectHashTables data took   2.46ms
+[2020.03.19-17.30.14:807][481]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.03.19-17.30.14:807][481]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.03.19-17.30.14:807][481]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.03.19-17.30.14:807][481]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.03.19-17.30.14:807][481]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.03.19-17.30.14:807][481]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.03.19-17.30.14:807][481]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.03.19-17.30.14:807][481]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.03.19-17.30.14:807][481]LogAudio: Display: Using built-in audio occlusion.
+[2020.03.19-17.30.14:807][481]LogAudioMixer: Display: Initializing audio mixer.
+[2020.03.19-17.30.14:830][481]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.03.19-17.30.14:830][481]LogAudioMixer: Display: Name: Headphones (Arctis 7 Game)
+[2020.03.19-17.30.14:830][481]LogAudioMixer: Display: Is Default: Yes
+[2020.03.19-17.30.14:830][481]LogAudioMixer: Display: Sample Rate: 48000
+[2020.03.19-17.30.14:830][481]LogAudioMixer: Display: Channel Count Used: 2
+[2020.03.19-17.30.14:830][481]LogAudioMixer: Display: Device Channel Count: 2
+[2020.03.19-17.30.14:830][481]LogAudioMixer: Display: Channel Order:
+[2020.03.19-17.30.14:830][481]LogAudioMixer: Display: 0: FrontLeft
+[2020.03.19-17.30.14:830][481]LogAudioMixer: Display: 1: FrontRight
+[2020.03.19-17.30.14:855][481]LogAudioMixer: Display: Using Audio Device Headphones (Arctis 7 Game)
+[2020.03.19-17.30.14:857][481]LogInit: FAudioDevice initialized.
+[2020.03.19-17.30.14:863][481]LogLoad: Game class is 'DieTogetherGameMode'
+[2020.03.19-17.30.14:864][481]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2020.03.19-18.30.14
+[2020.03.19-17.30.14:864][481]LogWorld: Bringing up level for play took: 0.000645
+[2020.03.19-17.30.14:864][481]LogOnline: OSS: Creating online subsystem instance for: :Context_17
+[2020.03.19-17.30.14:866][481]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2020.03.19-17.30.15:058][481]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.192 s
+[2020.03.19-17.30.15:058][481]LogOutputDevice: Error: === Handled ensure: ===
+[2020.03.19-17.30.15:058][481]LogOutputDevice: Error: 
+[2020.03.19-17.30.15:058][481]LogOutputDevice: Error: Ensure condition failed: InvocationList[ CurFunctionIndex ] != InDelegate [File:d:\build\++ue4\sync\engine\source\runtime\core\public\UObject/ScriptDelegates.h] [Line: 556]
+[2020.03.19-17.30.15:058][481]LogOutputDevice: Error: 
+[2020.03.19-17.30.15:058][481]LogOutputDevice: Error: Stack: 
+[2020.03.19-17.30.15:058][481]LogOutputDevice: Error: [Callstack] 0x00007ffcf88a0599 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.03.19-17.30.15:058][481]LogOutputDevice: Error: [Callstack] 0x00007ffcf8784bb4 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2020.03.19-17.30.15:058][481]LogOutputDevice: Error: [Callstack] 0x00007ffd1f03226b UE4Editor-DieTogether-8039.dll!AGoal::BeginPlay() [C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\Source\DieTogether\world\Goal.cpp:33]
+[2020.03.19-17.30.15:058][481]LogOutputDevice: Error: [Callstack] 0x00007ffcb6ebc7dd UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.19-17.30.15:058][481]LogOutputDevice: Error: [Callstack] 0x00007ffcb81be2e2 UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.19-17.30.15:058][481]LogOutputDevice: Error: [Callstack] 0x00007ffcb75ce3b1 UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.19-17.30.15:058][481]LogOutputDevice: Error: [Callstack] 0x00007ffcb816942e UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.19-17.30.15:058][481]LogOutputDevice: Error: [Callstack] 0x00007ffcb75ef1d5 UE4Editor-Engine.dll!UnknownFunction []
+[2020.03.19-17.30.15:058][481]LogOutputDevice: Error: [Callstack] 0x00007ffccb79245c UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.03.19-17.30.15:058][481]LogOutputDevice: Error: [Callstack] 0x00007ffccb7b2806 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.03.19-17.30.15:058][481]LogOutputDevice: Error: [Callstack] 0x00007ffccb7cd285 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.03.19-17.30.15:058][481]LogOutputDevice: Error: [Callstack] 0x00007ffccb29a5f5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.03.19-17.30.15:058][481]LogOutputDevice: Error: [Callstack] 0x00007ffccbafe476 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2020.03.19-17.30.15:058][481]LogOutputDevice: Error: [Callstack] 0x00007ff67a457f62 UE4Editor.exe!UnknownFunction []
+[2020.03.19-17.30.15:058][481]LogOutputDevice: Error: [Callstack] 0x00007ff67a46c3ec UE4Editor.exe!UnknownFunction []
+[2020.03.19-17.30.15:058][481]LogOutputDevice: Error: [Callstack] 0x00007ff67a46c4ca UE4Editor.exe!UnknownFunction []
+[2020.03.19-17.30.15:058][481]LogOutputDevice: Error: [Callstack] 0x00007ff67a47ceae UE4Editor.exe!UnknownFunction []
+[2020.03.19-17.30.15:058][481]LogOutputDevice: Error: [Callstack] 0x00007ff67a47fcbe UE4Editor.exe!UnknownFunction []
+[2020.03.19-17.30.15:058][481]LogOutputDevice: Error: [Callstack] 0x00007ffd44147bd4 KERNEL32.DLL!UnknownFunction []
+[2020.03.19-17.30.15:058][481]LogOutputDevice: Error: [Callstack] 0x00007ffd4530ced1 ntdll.dll!UnknownFunction []
+[2020.03.19-17.30.15:058][481]LogOutputDevice: Error: 
+[2020.03.19-17.30.15:061][481]LogStats:                SubmitErrorReport -  0.000 s
