@@ -17,6 +17,7 @@ void EmptyLinkFunctionForGeneratedCodeGoal() {}
 	DIETOGETHER_API UClass* Z_Construct_UClass_AGoal();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_DieTogether();
+	DIETOGETHER_API UFunction* Z_Construct_UFunction_AGoal_GetStatusText();
 	DIETOGETHER_API UFunction* Z_Construct_UFunction_AGoal_OnOverlapBegin();
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
@@ -27,9 +28,44 @@ void EmptyLinkFunctionForGeneratedCodeGoal() {}
 	{
 		UClass* Class = AGoal::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "GetStatusText", &AGoal::execGetStatusText },
 			{ "OnOverlapBegin", &AGoal::execOnOverlapBegin },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AGoal_GetStatusText_Statics
+	{
+		struct Goal_eventGetStatusText_Parms
+		{
+			FString ReturnValue;
+		};
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UFunction_AGoal_GetStatusText_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(Goal_eventGetStatusText_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AGoal_GetStatusText_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AGoal_GetStatusText_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AGoal_GetStatusText_Statics::Function_MetaDataParams[] = {
+		{ "Comment", "// accessor function for text\n" },
+		{ "ModuleRelativePath", "world/Goal.h" },
+		{ "ToolTip", "accessor function for text" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AGoal_GetStatusText_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AGoal, nullptr, "GetStatusText", nullptr, nullptr, sizeof(Goal_eventGetStatusText_Parms), Z_Construct_UFunction_AGoal_GetStatusText_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AGoal_GetStatusText_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x14020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AGoal_GetStatusText_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AGoal_GetStatusText_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AGoal_GetStatusText()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AGoal_GetStatusText_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AGoal_OnOverlapBegin_Statics
 	{
@@ -124,6 +160,10 @@ void EmptyLinkFunctionForGeneratedCodeGoal() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_StatusText_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStrPropertyParams NewProp_StatusText;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CapsuleComponent_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CapsuleComponent;
@@ -136,6 +176,7 @@ void EmptyLinkFunctionForGeneratedCodeGoal() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_DieTogether,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AGoal_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AGoal_GetStatusText, "GetStatusText" }, // 2444915461
 		{ &Z_Construct_UFunction_AGoal_OnOverlapBegin, "OnOverlapBegin" }, // 3582904616
 	};
 #if WITH_METADATA
@@ -145,6 +186,13 @@ void EmptyLinkFunctionForGeneratedCodeGoal() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGoal_Statics::NewProp_StatusText_MetaData[] = {
+		{ "Category", "Goal" },
+		{ "ModuleRelativePath", "world/Goal.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_AGoal_Statics::NewProp_StatusText = { "StatusText", nullptr, (EPropertyFlags)0x0020080000000001, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGoal, StatusText), METADATA_PARAMS(Z_Construct_UClass_AGoal_Statics::NewProp_StatusText_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGoal_Statics::NewProp_StatusText_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AGoal_Statics::NewProp_CapsuleComponent_MetaData[] = {
 		{ "Category", "Goal" },
 		{ "EditInline", "true" },
@@ -153,6 +201,7 @@ void EmptyLinkFunctionForGeneratedCodeGoal() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AGoal_Statics::NewProp_CapsuleComponent = { "CapsuleComponent", nullptr, (EPropertyFlags)0x0020080000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AGoal, CapsuleComponent), Z_Construct_UClass_UCapsuleComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AGoal_Statics::NewProp_CapsuleComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AGoal_Statics::NewProp_CapsuleComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AGoal_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGoal_Statics::NewProp_StatusText,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AGoal_Statics::NewProp_CapsuleComponent,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AGoal_Statics::StaticCppClassTypeInfo = {
@@ -182,7 +231,7 @@ void EmptyLinkFunctionForGeneratedCodeGoal() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AGoal, 3436272874);
+	IMPLEMENT_CLASS(AGoal, 1655573514);
 	template<> DIETOGETHER_API UClass* StaticClass<AGoal>()
 	{
 		return AGoal::StaticClass();

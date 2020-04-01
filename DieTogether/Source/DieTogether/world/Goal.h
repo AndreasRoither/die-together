@@ -24,8 +24,15 @@ protected:
 	UPROPERTY(EditAnywhere)
 	class UCapsuleComponent* CapsuleComponent;
 
+	UPROPERTY(EditAnywhere)
+	FString StatusText;
+
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
+
+	// accessor function for text
+	UFUNCTION(BlueprintPure)
+	FString GetStatusText();
 
 };

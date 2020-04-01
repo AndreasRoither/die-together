@@ -19,6 +19,14 @@ struct FHitResult;
 #define DieTogether_Source_DieTogether_world_Goal_h_12_SPARSE_DATA
 #define DieTogether_Source_DieTogether_world_Goal_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetStatusText) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FString*)Z_Param__Result=P_THIS->GetStatusText(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execOnOverlapBegin) \
 	{ \
 		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComp); \
@@ -35,6 +43,14 @@ struct FHitResult;
 
 
 #define DieTogether_Source_DieTogether_world_Goal_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetStatusText) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FString*)Z_Param__Result=P_THIS->GetStatusText(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execOnOverlapBegin) \
 	{ \
@@ -94,7 +110,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGoal); \
 
 
 #define DieTogether_Source_DieTogether_world_Goal_h_12_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__CapsuleComponent() { return STRUCT_OFFSET(AGoal, CapsuleComponent); }
+	FORCEINLINE static uint32 __PPO__CapsuleComponent() { return STRUCT_OFFSET(AGoal, CapsuleComponent); } \
+	FORCEINLINE static uint32 __PPO__StatusText() { return STRUCT_OFFSET(AGoal, StatusText); }
 
 
 #define DieTogether_Source_DieTogether_world_Goal_h_9_PROLOG
