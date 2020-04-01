@@ -1,7 +1,0 @@
-C:\Users\Andreas\Documents\git\die-together\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\Definitions.DieTogether.h
-C:\Users\Andreas\Documents\git\die-together\DieTogether\Source\DieTogether\world\Goal.h
-C:\Users\Andreas\Documents\git\die-together\DieTogether\Intermediate\Build\Win64\UE4Editor\Inc\DieTogether\Goal.generated.h
-F:\Games\Epic\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
-F:\Games\Epic\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
-F:\Games\Epic\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
-F:\Games\Epic\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h

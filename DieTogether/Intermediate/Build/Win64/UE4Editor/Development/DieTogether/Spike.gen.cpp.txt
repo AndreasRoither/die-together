@@ -1,5 +1,0 @@
-C:\Users\Andreas\Documents\git\die-together\DieTogether\Intermediate\Build\Win64\UE4Editor\Development\DieTogether\Definitions.DieTogether.h
-F:\Games\Epic\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-F:\Games\Epic\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Users\Andreas\Documents\git\die-together\DieTogether\Source\DieTogether/Spike.h
-C:\Users\Andreas\Documents\git\die-together\DieTogether\Intermediate\Build\Win64\UE4Editor\Inc\DieTogether\Spike.generated.h
