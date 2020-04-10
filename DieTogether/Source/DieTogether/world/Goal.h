@@ -25,10 +25,10 @@ protected:
 	UPROPERTY(EditAnywhere)
 		class UCapsuleComponent* CapsuleComponent;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Category = Goal)
 		FString StatusText;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(EditAnywhere, Category = Goal)
 		FString PlayerTag;
 
 public:

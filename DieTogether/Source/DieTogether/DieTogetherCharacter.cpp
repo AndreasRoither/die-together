@@ -34,7 +34,7 @@ ADieTogetherCharacter::ADieTogetherCharacter()
 	CameraBoom->SetUsingAbsoluteRotation(true);
 	CameraBoom->bDoCollisionTest = false;
 	CameraBoom->SetRelativeRotation(FRotator(0.0f, -90.0f, 0.0f));
-	
+
 
 	// Create an orthographic camera (no perspective) and attach it to the boom
 	SideViewCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("SideViewCamera"));
@@ -65,15 +65,18 @@ ADieTogetherCharacter::ADieTogetherCharacter()
 	// behavior on the edge of a ledge versus inclines by setting this to true or false
 	GetCharacterMovement()->bUseFlatBaseForFloorChecks = true;
 
-    // 	TextComponent = CreateDefaultSubobject<UTextRenderComponent>(TEXT("IncarGear"));
-    // 	TextComponent->SetRelativeScale3D(FVector(3.0f, 3.0f, 3.0f));
-    // 	TextComponent->SetRelativeLocation(FVector(35.0f, 5.0f, 20.0f));
-    // 	TextComponent->SetRelativeRotation(FRotator(0.0f, 90.0f, 0.0f));
-    // 	TextComponent->SetupAttachment(RootComponent);
+	// 	TextComponent = CreateDefaultSubobject<UTextRenderComponent>(TEXT("IncarGear"));
+	// 	TextComponent->SetRelativeScale3D(FVector(3.0f, 3.0f, 3.0f));
+	// 	TextComponent->SetRelativeLocation(FVector(35.0f, 5.0f, 20.0f));
+	// 	TextComponent->SetRelativeRotation(FRotator(0.0f, 90.0f, 0.0f));
+	// 	TextComponent->SetupAttachment(RootComponent);
 
 	// Enable replication on the Sprite component so animations show up when networked
 	GetSprite()->SetIsReplicated(true);
 	bReplicates = true;
+
+	// picked up item
+	CurrentPickedUpActor = nullptr;
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -86,7 +89,7 @@ void ADieTogetherCharacter::UpdateAnimation()
 
 	// Are we moving or standing still?
 	UPaperFlipbook* DesiredAnimation = (PlayerSpeedSqr > 0.0f) ? RunningAnimation : IdleAnimation;
-	if( GetSprite()->GetFlipbook() != DesiredAnimation 	)
+	if (GetSprite()->GetFlipbook() != DesiredAnimation)
 	{
 		GetSprite()->SetFlipbook(DesiredAnimation);
 	}
@@ -95,8 +98,9 @@ void ADieTogetherCharacter::UpdateAnimation()
 void ADieTogetherCharacter::Tick(float DeltaSeconds)
 {
 	Super::Tick(DeltaSeconds);
-	
-	UpdateCharacter();	
+
+	UpdateCharacter();
+	UpdatePickedUpElement();
 }
 
 
@@ -108,10 +112,42 @@ void ADieTogetherCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 	// Note: the 'Jump' action and the 'MoveRight' axis are bound to actual keys/buttons/sticks in DefaultInput.ini (editable from Project Settings..Input)
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
+	PlayerInputComponent->BindAction("PickUp", IE_Pressed, this, &ADieTogetherCharacter::PickUp);
+
 	PlayerInputComponent->BindAxis("MoveRight", this, &ADieTogetherCharacter::MoveRight);
 
 	PlayerInputComponent->BindTouch(IE_Pressed, this, &ADieTogetherCharacter::TouchStarted);
 	PlayerInputComponent->BindTouch(IE_Released, this, &ADieTogetherCharacter::TouchStopped);
+}
+
+void ADieTogetherCharacter::PickUp()
+{
+	Drop();
+	
+	TArray<AActor*> actors;
+	GetOverlappingActors(actors);
+
+	for (auto Actor : actors)
+	{
+		if (Actor->ActorHasTag(FName(*PickAbleTag)))
+		{
+			UE_LOG(LogTemp, Warning, TEXT("Picked up"));
+			CurrentPickedUpActor = Actor;
+		}
+	}
+}
+
+void ADieTogetherCharacter::Drop()
+{
+	CurrentPickedUpActor = nullptr;
+}
+
+void ADieTogetherCharacter::UpdatePickedUpElement()
+{
+	if (IsValid(CurrentPickedUpActor))
+	{
+		CurrentPickedUpActor->SetActorLocation(GetActorLocation());
+	}
 }
 
 void ADieTogetherCharacter::MoveRight(float Value)
@@ -140,7 +176,7 @@ void ADieTogetherCharacter::UpdateCharacter()
 	UpdateAnimation();
 
 	// Now setup the rotation of the controller based on the direction we are travelling
-	const FVector PlayerVelocity = GetVelocity();	
+	const FVector PlayerVelocity = GetVelocity();
 	float TravelDirection = PlayerVelocity.X;
 	// Set the rotation so that the character faces his direction of travel.
 	if (Controller != nullptr)

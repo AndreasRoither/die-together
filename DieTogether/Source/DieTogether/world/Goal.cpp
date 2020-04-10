@@ -31,7 +31,7 @@ void AGoal::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherAct
 {
 	if (OtherActor->ActorHasTag(FName(*PlayerTag)))
 	{
-		UE_LOG(LogTemp, Warning, TEXT("Collision"));
+		UE_LOG(LogTemp, Warning, TEXT("Goal reached"));
 		StatusText = FString("Goal reached");
 	}
 }
