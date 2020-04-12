@@ -42,10 +42,10 @@ RM = C:\Users\Andreas\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\193.6494.3
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether
+CMAKE_SOURCE_DIR = C:\Users\Andreas\Documents\git\die-together\DieTogether
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Andreas\Documents\git\die-together\DieTogether\cmake-build-debug
 
 # Utility rule file for DieTogetherEditor.
 
@@ -53,7 +53,7 @@ CMAKE_BINARY_DIR = C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\c
 include CMakeFiles/DieTogetherEditor.dir/progress.make
 
 CMakeFiles/DieTogetherEditor:
-	call F:/Games/Epic/UE_4.24/Engine/Build/BatchFiles/Build.bat DieTogetherEditor Win64 Development -project=C:/Users/Andreas/Documents/git/DieTogetherProto/DieTogether/DieTogether.uproject -game -progress -buildscw
+	call "C:/Program Files/Epic Games/UE_4.24/Engine/Build/BatchFiles/Build.bat" DieTogetherEditor Win64 Development -project=C:/Users/Andreas/Documents/git/die-together/DieTogether/DieTogether.uproject -game -progress -buildscw
 
 DieTogetherEditor: CMakeFiles/DieTogetherEditor
 DieTogetherEditor: CMakeFiles/DieTogetherEditor.dir/build.make
@@ -70,6 +70,6 @@ CMakeFiles/DieTogetherEditor.dir/clean:
 .PHONY : CMakeFiles/DieTogetherEditor.dir/clean
 
 CMakeFiles/DieTogetherEditor.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\cmake-build-debug C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\cmake-build-debug C:\Users\Andreas\Documents\git\DieTogetherProto\DieTogether\cmake-build-debug\CMakeFiles\DieTogetherEditor.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Andreas\Documents\git\die-together\DieTogether C:\Users\Andreas\Documents\git\die-together\DieTogether C:\Users\Andreas\Documents\git\die-together\DieTogether\cmake-build-debug C:\Users\Andreas\Documents\git\die-together\DieTogether\cmake-build-debug C:\Users\Andreas\Documents\git\die-together\DieTogether\cmake-build-debug\CMakeFiles\DieTogetherEditor.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/DieTogetherEditor.dir/depend
 

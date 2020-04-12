@@ -122,18 +122,39 @@ void ADieTogetherCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 
 void ADieTogetherCharacter::PickUp()
 {
-	Drop();
-	
-	TArray<AActor*> actors;
-	GetOverlappingActors(actors);
-
-	for (auto Actor : actors)
+	if (IsValid(CurrentPickedUpActor))
 	{
-		if (Actor->ActorHasTag(FName(*PickAbleTag)))
+		Drop();
+	}
+	else
+	{
+		TArray<AActor*> actors;
+		GetOverlappingActors(actors);
+		if (actors.Num() == 0) return;
+
+		const FName Tag = FName(*PickAbleTag);
+
+		actors = actors.FilterByPredicate([&](AActor* PredicateActor) { return PredicateActor->ActorHasTag(Tag); });
+
+		AActor* ClosestActor = *actors.GetData();
+		float ClosestDistance = ClosestActor->GetDistanceTo(this);
+
+		for (auto Actor : actors)
 		{
-			UE_LOG(LogTemp, Warning, TEXT("Picked up"));
-			CurrentPickedUpActor = Actor;
+			if (!Actor->ActorHasTag(FName(*PickAbleTag)))
+				continue;
+
+			const float TempDistance = Actor->GetDistanceTo(this);
+
+			if (Actor->GetDistanceTo(this) < ClosestDistance)
+			{
+				ClosestDistance = TempDistance;
+				ClosestActor = Actor;
+			}
 		}
+
+		if (IsValid(ClosestActor))
+			CurrentPickedUpActor = ClosestActor;
 	}
 }
 
