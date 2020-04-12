@@ -51,6 +51,7 @@
 
 # Builds
 **/Build/*
+**/cmake-build*/
 
 # Whitelist PakBlacklist-<BuildConfiguration>.txt files
 **/!Build/*/
