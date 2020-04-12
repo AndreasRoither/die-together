@@ -21,6 +21,7 @@ ADieTogetherCharacter::ADieTogetherCharacter()
 	bUseControllerRotationPitch = false;
 	bUseControllerRotationYaw = true;
 	bUseControllerRotationRoll = false;
+	bPickedUp = false;
 
 	// Set the size of our collision capsule.
 	GetCapsuleComponent()->SetCapsuleHalfHeight(96.0f);
@@ -50,7 +51,8 @@ ADieTogetherCharacter::ADieTogetherCharacter()
 
 	// Configure character movement
 	GetCharacterMovement()->GravityScale = 2.0f;
-	GetCharacterMovement()->AirControl = 0.80f;
+	GetCharacterMovement()->AirControl = 1.0f;
+	GetCharacterMovement()->AirControlBoostMultiplier = 1.0f;
 	GetCharacterMovement()->JumpZVelocity = 1000.f;
 	GetCharacterMovement()->GroundFriction = 3.0f;
 	GetCharacterMovement()->MaxWalkSpeed = 600.0f;
@@ -114,14 +116,16 @@ void ADieTogetherCharacter::SetupPlayerInputComponent(class UInputComponent* Pla
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 	PlayerInputComponent->BindAction("PickUp", IE_Pressed, this, &ADieTogetherCharacter::PickUp);
 
-	PlayerInputComponent->BindAxis("MoveRight", this, &ADieTogetherCharacter::MoveRight);
+	PlayerInputComponent->BindAxis("MoveAxis", this, &ADieTogetherCharacter::MoveAxis);
 
-	PlayerInputComponent->BindTouch(IE_Pressed, this, &ADieTogetherCharacter::TouchStarted);
-	PlayerInputComponent->BindTouch(IE_Released, this, &ADieTogetherCharacter::TouchStopped);
+	//PlayerInputComponent->BindTouch(IE_Pressed, this, &ADieTogetherCharacter::TouchStarted);
+	//PlayerInputComponent->BindTouch(IE_Released, this, &ADieTogetherCharacter::TouchStopped);
 }
 
 void ADieTogetherCharacter::PickUp()
 {
+	if (bPickedUp) return;
+
 	if (IsValid(CurrentPickedUpActor))
 	{
 		Drop();
@@ -130,11 +134,11 @@ void ADieTogetherCharacter::PickUp()
 	{
 		TArray<AActor*> actors;
 		GetOverlappingActors(actors);
-		if (actors.Num() == 0) return;
 
 		const FName Tag = FName(*PickAbleTag);
-
 		actors = actors.FilterByPredicate([&](AActor* PredicateActor) { return PredicateActor->ActorHasTag(Tag); });
+
+		if (actors.Num() == 0) return;
 
 		AActor* ClosestActor = *actors.GetData();
 		float ClosestDistance = ClosestActor->GetDistanceTo(this);
@@ -154,26 +158,62 @@ void ADieTogetherCharacter::PickUp()
 		}
 
 		if (IsValid(ClosestActor))
+		{
 			CurrentPickedUpActor = ClosestActor;
+
+			ADieTogetherCharacter* Character = dynamic_cast<ADieTogetherCharacter*>(CurrentPickedUpActor);
+
+			if (IsValid(Character))
+			{
+				Character->GetCharacterMovement()->Velocity = FVector(0, 0, 0);
+				Character->GetCharacterMovement()->GravityScale = 0.0f;
+				Character->bPickedUp = true;
+				Character->CurrentPickedUpActor = this;
+			}
+
+			FAttachmentTransformRules rules = FAttachmentTransformRules(EAttachmentRule::SnapToTarget,
+			                                                            EAttachmentRule::KeepRelative,
+			                                                            EAttachmentRule::KeepRelative, false);
+			CurrentPickedUpActor->AttachToComponent(GetSprite(), rules, FName(*PickableSocketTag));
+		}
 	}
 }
 
 void ADieTogetherCharacter::Drop()
 {
-	CurrentPickedUpActor = nullptr;
+	if (IsValid(CurrentPickedUpActor))
+	{
+		ADieTogetherCharacter* Character = dynamic_cast<ADieTogetherCharacter*>(CurrentPickedUpActor);
+		if (IsValid(Character))
+		{
+			if (bPickedUp)
+			{
+				this->LaunchCharacter(FVector(Character->GetVelocity().X, 0, 833 + Character->GetVelocity().Z / 5) * 1.2f, false, false);
+				this->GetCharacterMovement()->GravityScale = 2.0f;
+			}
+			else
+			{
+				Character->LaunchCharacter(FVector(GetVelocity().X, 0, 833 + GetVelocity().Z / 5) * 1.2f, false, false);
+				Character->GetCharacterMovement()->GravityScale = 2.0f;
+			}
+
+			bPickedUp = false;
+			Character->CurrentPickedUpActor = nullptr;
+		}
+
+		CurrentPickedUpActor->DetachFromActor(FDetachmentTransformRules::KeepWorldTransform);
+		CurrentPickedUpActor = nullptr;
+	}
 }
 
 void ADieTogetherCharacter::UpdatePickedUpElement()
 {
-	if (IsValid(CurrentPickedUpActor))
-	{
-		CurrentPickedUpActor->SetActorLocation(GetActorLocation());
-	}
+
 }
 
-void ADieTogetherCharacter::MoveRight(float Value)
+void ADieTogetherCharacter::MoveAxis(float Value)
 {
-	/*UpdateChar();*/
+	if (bPickedUp) return;
 
 	// Apply the input to the character motion
 	AddMovementInput(FVector(1.0f, 0.0f, 0.0f), Value);
@@ -181,8 +221,14 @@ void ADieTogetherCharacter::MoveRight(float Value)
 
 void ADieTogetherCharacter::TouchStarted(const ETouchIndex::Type FingerIndex, const FVector Location)
 {
-	// Jump on any touch
-	Jump();
+	if (bPickedUp)
+	{
+		Drop();
+	}
+	else
+	{
+		Jump();
+	}
 }
 
 void ADieTogetherCharacter::TouchStopped(const ETouchIndex::Type FingerIndex, const FVector Location)
@@ -199,6 +245,7 @@ void ADieTogetherCharacter::UpdateCharacter()
 	// Now setup the rotation of the controller based on the direction we are travelling
 	const FVector PlayerVelocity = GetVelocity();
 	float TravelDirection = PlayerVelocity.X;
+	
 	// Set the rotation so that the character faces his direction of travel.
 	if (Controller != nullptr)
 	{
