@@ -16,10 +16,11 @@ public:
 	// Sets default values for this actor's properties
 	ARespawnActor();
 
-protected:
 	UPROPERTY(EditAnywhere)
-		AActor* SpawnLocationActor;
-
+	AActor* SpawnLocationActor;
+	
+protected:
+	
 	virtual void BeginPlay() override;
 
 public:

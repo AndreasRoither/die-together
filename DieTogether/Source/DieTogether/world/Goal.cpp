@@ -1,7 +1,6 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 // ReSharper disable CppMemberFunctionMayBeConst
 #include "Goal.h"
-
 #include "Components/PrimitiveComponent.h"
 #include "Components/CapsuleComponent.h"
 #include "Components/StaticMeshComponent.h"
@@ -15,8 +14,9 @@ AGoal::AGoal()
 	StatusText = FString("");
 
 	CapsuleComponent = CreateDefaultSubobject<UCapsuleComponent>(TEXT("CapsuleComponent"));
-	RootComponent = CapsuleComponent;
+	CapsuleComponent->SetCapsuleSize(40, 96);
 	CapsuleComponent->SetGenerateOverlapEvents(true);
+	RootComponent = CapsuleComponent;
 }
 
 // Called when the game starts or when spawned
@@ -27,7 +27,7 @@ void AGoal::BeginPlay()
 }
 
 void AGoal::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp,
-	int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+                           int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	if (OtherActor->ActorHasTag(FName(*PlayerTag)))
 	{
