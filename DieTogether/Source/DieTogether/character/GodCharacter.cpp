@@ -2,14 +2,37 @@
 
 
 #include "GodCharacter.h"
+
+#include "Camera/CameraComponent.h"
 #include "Components/InputComponent.h"
 #include "GameFramework/Controller.h"
+#include "GameFramework/SpringArmComponent.h"
 
 // Sets default values
 AGodCharacter::AGodCharacter()
 {
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+
+	// Create a camera boom attached to the root (capsule)
+	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
+	CameraBoom->SetupAttachment(RootComponent);
+	CameraBoom->TargetArmLength = 500.0f;
+	CameraBoom->SocketOffset = FVector(0.0f, 0.0f, 75.0f);
+	CameraBoom->SetUsingAbsoluteRotation(true);
+	CameraBoom->bDoCollisionTest = false;
+	CameraBoom->SetRelativeRotation(FRotator(0.0f, -90.0f, 0.0f));
+
+	// Create an orthographic camera (no perspective) and attach it to the boom
+	SideViewCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("SideViewCamera"));
+	SideViewCameraComponent->ProjectionMode = ECameraProjectionMode::Orthographic;
+	SideViewCameraComponent->OrthoWidth = 2048.0f;
+	SideViewCameraComponent->SetupAttachment(CameraBoom, USpringArmComponent::SocketName);
+
+	// Prevent all automatic rotation behavior on the camera, character, and camera component
+	CameraBoom->SetUsingAbsoluteRotation(true);
+	SideViewCameraComponent->bUsePawnControlRotation = false;
+	SideViewCameraComponent->bAutoActivate = true;
 }
 
 // Called when the game starts or when spawned
@@ -22,6 +45,16 @@ void AGodCharacter::BeginPlay()
 void AGodCharacter::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+
+	if (IsValid(pawn1) && IsValid(pawn2))
+	{
+		float distance = pawn1->GetHorizontalDistanceTo(pawn2);
+		SetActorLocation(pawn2->GetActorLocation() + (pawn1->GetActorLocation() - pawn2->GetActorLocation()) / 2);
+
+		//CameraBoom->TargetArmLength = FMath::Clamp(distance, 500.0f, 1500.0f);;
+		//CameraBoom->ApplyWorldOffset(FVector(0, distance, 0), false);
+		SideViewCameraComponent->OrthoWidth = FMath::Clamp(distance * 1.2f, 2048.0f, 4200.0f);
+	}
 }
 
 // Called to bind functionality to input
