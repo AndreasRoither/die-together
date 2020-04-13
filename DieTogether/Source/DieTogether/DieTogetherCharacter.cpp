@@ -175,6 +175,8 @@ void ADieTogetherCharacter::PickUp()
 			FAttachmentTransformRules rules = FAttachmentTransformRules(EAttachmentRule::SnapToTarget,
 			                                                            EAttachmentRule::KeepRelative,
 			                                                            EAttachmentRule::KeepRelative, false);
+
+			UPaperFlipbookComponent* comp = GetSprite();
 			CurrentPickedUpActor->AttachToComponent(GetSprite(), rules, FName(*PickableSocketTag));
 		}
 	}
