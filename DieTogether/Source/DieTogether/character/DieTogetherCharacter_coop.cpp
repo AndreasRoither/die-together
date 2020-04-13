@@ -34,13 +34,14 @@ void ADieTogetherCharacter_coop::SetupPlayerInputComponent(UInputComponent* Play
 	//Super::SetupPlayerInputComponent(PlayerInputComponent);
 
 	// Note: the 'Jump' action and the 'MoveRight' axis are bound to actual keys/buttons/sticks in DefaultInput.ini (editable from Project Settings..Input)
+
 	PlayerInputComponent->BindAction("Jump2", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump2", IE_Released, this, &ACharacter::StopJumping);
 	PlayerInputComponent->BindAction("PickUp2", IE_Pressed, this, &ADieTogetherCharacter_coop::PickUp);
 
 	PlayerInputComponent->BindAxis("MoveAxis2", this, &ADieTogetherCharacter_coop::MoveAxis);
 
-	PlayerInputComponent->BindTouch(IE_Pressed, this, &ADieTogetherCharacter_coop::TouchStarted);
-	PlayerInputComponent->BindTouch(IE_Released, this, &ADieTogetherCharacter_coop::TouchStopped);
+	//PlayerInputComponent->BindTouch(IE_Pressed, this, &ADieTogetherCharacter_coop::TouchStarted);
+	//PlayerInputComponent->BindTouch(IE_Released, this, &ADieTogetherCharacter_coop::TouchStopped);
 }
 

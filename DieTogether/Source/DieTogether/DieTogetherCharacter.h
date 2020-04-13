@@ -56,9 +56,6 @@ protected:
 	/** Called to choose the correct animation to play based on the character's movement state */
 	void UpdateAnimation();
 
-	/** Called for side to side input */
-	void MoveAxis(float Value);
-
 	void UpdateCharacter();
 
 	/** Handle touch inputs. */
@@ -73,11 +70,11 @@ protected:
 
 	virtual void Tick(float DeltaSeconds) override;
 
-	void PickUp();
-	void Drop();
 	void UpdatePickedUpElement();
 
 	bool bPickedUp;
+
+	bool bGoingRight;
 
 public:
 	ADieTogetherCharacter();
@@ -86,4 +83,11 @@ public:
 	FORCEINLINE class UCameraComponent* GetSideViewCameraComponent() const { return SideViewCameraComponent; }
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
+
+	void PickUp();
+	void Drop();
+
+	/** Called for side to side input */
+	void MoveAxis(float Value);
+	void Jump() override;
 };
