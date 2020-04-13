@@ -173,10 +173,9 @@ void ADieTogetherCharacter::PickUp()
 			}
 
 			FAttachmentTransformRules rules = FAttachmentTransformRules(EAttachmentRule::SnapToTarget,
-			                                                            EAttachmentRule::KeepRelative,
-			                                                            EAttachmentRule::KeepRelative, false);
+			                                                            EAttachmentRule::KeepWorld,
+			                                                            EAttachmentRule::KeepWorld, false);
 
-			UPaperFlipbookComponent* comp = GetSprite();
 			CurrentPickedUpActor->AttachToComponent(GetSprite(), rules, FName(*PickableSocketTag));
 		}
 	}
@@ -193,7 +192,7 @@ void ADieTogetherCharacter::Drop()
 			this->DetachFromActor(FDetachmentTransformRules::KeepWorldTransform);
 
 			this->GetCharacterMovement()->GravityScale = 2.0f;
-			this->LaunchCharacter(FVector(Character->GetVelocity().X, 0, 450 + Character->GetVelocity().Z / 5) * 1.2f,
+			this->LaunchCharacter(FVector(Character->GetVelocity().X, 0, 800 + Character->GetVelocity().Z / 5) * 1.2f,
 			                      false, false);
 
 			bPickedUp = false;
@@ -208,7 +207,7 @@ void ADieTogetherCharacter::Drop()
 
 		if (IsValid(Character))
 		{
-			Character->LaunchCharacter(FVector(GetVelocity().X, 0, 450 + GetVelocity().Z / 5) * 1.2f, false, false);
+			Character->LaunchCharacter(FVector(GetVelocity().X, 0, 800 + GetVelocity().Z / 5) * 1.2f, false, false);
 			Character->GetCharacterMovement()->GravityScale = 2.0f;
 			Character->CurrentPickedUpActor = nullptr;
 			Character->bPickedUp = false;
@@ -257,6 +256,8 @@ void ADieTogetherCharacter::UpdateCharacter()
 {
 	// Update animation to match the motion
 	UpdateAnimation();
+
+	if (bPickedUp) return;
 
 	// Now setup the rotation of the controller based on the direction we are travelling
 	const FVector PlayerVelocity = GetVelocity();

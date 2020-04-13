@@ -26,7 +26,7 @@ AGodCharacter::AGodCharacter()
 	// Create an orthographic camera (no perspective) and attach it to the boom
 	SideViewCameraComponent = CreateDefaultSubobject<UCameraComponent>(TEXT("SideViewCamera"));
 	SideViewCameraComponent->ProjectionMode = ECameraProjectionMode::Orthographic;
-	SideViewCameraComponent->OrthoWidth = 400.0f;
+	SideViewCameraComponent->OrthoWidth = 1800.0f;
 	SideViewCameraComponent->SetupAttachment(CameraBoom, USpringArmComponent::SocketName);
 
 	// Prevent all automatic rotation behavior on the camera, character, and camera component
@@ -53,7 +53,7 @@ void AGodCharacter::Tick(float DeltaTime)
 
 		//CameraBoom->TargetArmLength = FMath::Clamp(distance, 500.0f, 1500.0f);;
 		//CameraBoom->ApplyWorldOffset(FVector(0, distance, 0), false);
-		SideViewCameraComponent->OrthoWidth = FMath::Clamp(distance * 1.2f, 400.0f, 700.0f);
+		SideViewCameraComponent->OrthoWidth = FMath::Clamp(distance * 1.2f, 1800.0f, 5000.0f);
 	}
 }
 
