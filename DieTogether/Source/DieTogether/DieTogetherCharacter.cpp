@@ -32,7 +32,7 @@ ADieTogetherCharacter::ADieTogetherCharacter()
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(RootComponent);
 	CameraBoom->TargetArmLength = 500.0f;
-	CameraBoom->SocketOffset = FVector(0.0f, 0.0f, 75.0f);
+	CameraBoom->SocketOffset = FVector(0.0f, 0.0f, 0.0f);
 	CameraBoom->SetUsingAbsoluteRotation(true);
 	CameraBoom->bDoCollisionTest = false;
 	CameraBoom->SetRelativeRotation(FRotator(0.0f, -90.0f, 0.0f));
@@ -54,9 +54,9 @@ ADieTogetherCharacter::ADieTogetherCharacter()
 	GetCharacterMovement()->GravityScale = 2.0f;
 	GetCharacterMovement()->AirControl = 1.0f;
 	GetCharacterMovement()->AirControlBoostMultiplier = 1.0f;
-	GetCharacterMovement()->JumpZVelocity = 1000.f;
+	GetCharacterMovement()->JumpZVelocity = 500.0f;
 	GetCharacterMovement()->GroundFriction = 3.0f;
-	GetCharacterMovement()->MaxWalkSpeed = 600.0f;
+	GetCharacterMovement()->MaxWalkSpeed = 300.0f;
 	GetCharacterMovement()->MaxFlySpeed = 600.0f;
 
 	// Lock character motion onto the XZ plane, so the character can't move in or out of the screen
@@ -191,7 +191,7 @@ void ADieTogetherCharacter::Drop()
 			this->DetachFromActor(FDetachmentTransformRules::KeepWorldTransform);
 
 			this->GetCharacterMovement()->GravityScale = 2.0f;
-			this->LaunchCharacter(FVector(Character->GetVelocity().X, 0, 833 + Character->GetVelocity().Z / 5) * 1.2f,
+			this->LaunchCharacter(FVector(Character->GetVelocity().X, 0, 450 + Character->GetVelocity().Z / 5) * 1.2f,
 			                      false, false);
 
 			bPickedUp = false;
@@ -206,9 +206,10 @@ void ADieTogetherCharacter::Drop()
 
 		if (IsValid(Character))
 		{
-			Character->LaunchCharacter(FVector(GetVelocity().X, 0, 833 + GetVelocity().Z / 5) * 1.2f, false, false);
+			Character->LaunchCharacter(FVector(GetVelocity().X, 0, 450 + GetVelocity().Z / 5) * 1.2f, false, false);
 			Character->GetCharacterMovement()->GravityScale = 2.0f;
 			Character->CurrentPickedUpActor = nullptr;
+			Character->bPickedUp = false;
 		}
 
 		CurrentPickedUpActor = nullptr;

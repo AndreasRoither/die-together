@@ -50,9 +50,6 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = PickedUp)
 	FString PickableSocketTag;
 
-	UPROPERTY(EditAnywhere, Category = PickedUp)
-	FVector PickedUpOffset;
-
 	/** Called to choose the correct animation to play based on the character's movement state */
 	void UpdateAnimation();
 
